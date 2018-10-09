@@ -2,7 +2,7 @@
 description: Rights for Work Set
 ---
 
-# rightsWorkSet
+# 5.1.1 \| rightsWorkSet
 
 ### Definition
 

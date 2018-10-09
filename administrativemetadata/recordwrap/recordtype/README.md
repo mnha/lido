@@ -2,7 +2,7 @@
 description: Record Type
 ---
 
-# recordType
+# 5.2.2 \| recordType
 
 ### Description
 
