@@ -14,7 +14,7 @@ The content of this element depends on the type attribute of the parent element 
 
 ### MuseumPlus
 
- Époque \| Mouv.
+ Objets \| Époque / Mouv.
 
 ### Attributes
 
@@ -27,8 +27,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:term>#Iconography 2#</lido:term>
-<lido:term xml:lang="de">#Iconography 2 (de)#</lido:term>
-<lido:term xml:lang="en">#Iconography 2 (en)#</lido:term>
+<lido:term>#Objets | Époque / Mouv. 1 (fr)#</lido:term>
+<lido:term xml:lang="de">#Objets | Époque / Mouv. 1 (de)#</lido:term>
+<lido:term xml:lang="en">#Objets | Époque / Mouv. 1 (en)#</lido:term>
 ```
 
