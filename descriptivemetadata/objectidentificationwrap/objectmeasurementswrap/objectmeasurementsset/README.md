@@ -4,7 +4,9 @@ description: Object Measurements Set
 
 # objectMeasurementsSet
 
-### Definition
+### Description
+
+#### LIDO
 
 Wrapper for display and index elements for object / work measurements.
 

@@ -2,7 +2,7 @@
 description: Object Description/Descriptive Note Wrapper
 ---
 
-# 4.2.3 \| objectDescriptionWrap
+# 4.2.4 \| objectDescriptionWrap
 
 ### Definition
 

@@ -2,7 +2,7 @@
 description: Custody/Repository Location (Wrapper)
 ---
 
-# 4.2.2 \| repositoryWrap
+# 4.2.3 \| repositoryWrap
 
 ### Definition
 

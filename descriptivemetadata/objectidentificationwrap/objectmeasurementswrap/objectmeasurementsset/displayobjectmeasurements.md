@@ -4,7 +4,9 @@ description: Display Object Measurement
 
 # displayObjectMeasurements
 
-### Definition
+### Description
+
+#### LIDO
 
 Display element for one object measurement, corresponding to the following objectMeasurement element.
 

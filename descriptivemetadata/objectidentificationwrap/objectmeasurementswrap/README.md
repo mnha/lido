@@ -2,9 +2,11 @@
 description: Object Measurements Wrapper
 ---
 
-# 4.2.4 \| objectMeasurementsWrap
+# 4.2.5 \| objectMeasurementsWrap
 
-### Definition
+### Description
+
+#### LIDO
 
 A wrapper for the Measurements.
 
