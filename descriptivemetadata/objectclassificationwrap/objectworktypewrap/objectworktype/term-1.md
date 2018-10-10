@@ -4,9 +4,13 @@ description: Term / Label
 
 # term
 
-### Definition
+### Description
+
+#### LIDO
 
 A name for the referred concept, used for indexing.
+
+#### MNHA
 
 This element is repeated for each language variant \(FR \| DE \| EN\).
 
@@ -25,8 +29,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:term>#Domain 1 (fr)#</lido:term>
-<lido:term xml:lang="de">#Domain 1 (de)#</lido:term>
-<lido:term xml:lang="en">#Domain 1 (en)#</lido:term>
+<lido:term>#Domaine(s) 1 (fr)#</lido:term>
+<lido:term xml:lang="de">#Domaine(s) 2 (de)#</lido:term>
+<lido:term xml:lang="en">#Domaine(s) 3 (en)#</lido:term>
 ```
 

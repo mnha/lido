@@ -4,13 +4,17 @@ description: Descriptive Metadata
 
 # 4 \| descriptiveMetadata
 
-### Definition
+### Description
+
+#### LIDO
 
 Holds the descriptive metadata of an object record.
 
 The attribute xml:lang is mandatory and specifies the language of the descriptive metadata. For fully multi-lingual resources, repeat this element once for each language represented.
 
 If only a few data fields \(e.g. title\) are provided in more than one language, the respective text elements may be repeated specifying the lang attribute on the text level.
+
+#### MNHA
 
 {% hint style="info" %}
 MNHA collections platform: for all data fields that are provided in more than one language \(FR \| DE \| EN\), the respective test elements are repeated specifying the lang attribute on the text level.

@@ -16,45 +16,71 @@ The category belongs to a systematic scheme \(classification\) which groups obje
 
 This attribute contains the following values to specify the content of the subelement term:
 
+`collection`
+
+The content of the subelement termis from the MuseumPlus field "Objets \| Collection"
+
+{% hint style="info" %}
+The field does not exist yet!
+{% endhint %}
+
+`sous_collection`
+
+The content of the subelement termis from the MuseumPlus field "Objets \| Collection"
+
+{% hint style="info" %}
+The field does not exist yet!
+{% endhint %}
+
 `designation`
 
-The content of the subelement termis from the MuseumPlus field "Dénomination"
+The content of the subelement termis from the MuseumPlus field "Objets \| Dénomination"
 
 `iconography`
 
-The content of the subelement termis from the MuseumPlus field "Iconographie"
+The content of the subelement termis from the MuseumPlus field "Objets \| Iconographie"
 
 `period_style_movement`
 
-The content of the subelement termis from the MuseumPlus field "Époque \| Mouv."
+The content of the subelement termis from the MuseumPlus field "Objets \| Époque \| Mouv."
 
 ### Example
 
 ```markup
+<lido:classification lido:type="collection">
+    <lido:term>#Objets | Collection#</lido:term>
+    <lido:term xml:lang="de">#Objets | Collection (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Collection (en)#</lido:term>
+</lido:classification>
+<lido:classification lido:type="sous_collection">
+    <lido:term>#Objets | Sous-Collection#</lido:term>
+    <lido:term xml:lang="de">#Objets | Sous-Collection (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Sous-Collection (en)#</lido:term>
+</lido:classification>
 <lido:classification lido:type="designation">
-    <lido:term>#Designation#</lido:term>
-    <lido:term xml:lang="de">#Designation (de)#</lido:term>
-    <lido:term xml:lang="en">#Designation (en)#</lido:term>
+    <lido:term>#Objets | Dénomination#</lido:term>
+    <lido:term xml:lang="de">#Objets | Dénomination (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Dénomination (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="iconography">
-    <lido:term>#Iconography 1#</lido:term>
-    <lido:term xml:lang="de">#Iconography 1 (de)#</lido:term>
-    <lido:term xml:lang="en">#Iconography 1 (en)#</lido:term>
+    <lido:term>#Objets | Iconographie 1#</lido:term>
+    <lido:term xml:lang="de">#Objets | Iconographie 1 (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Iconographie 1 (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="iconography">
-    <lido:term>#Iconography 2#</lido:term>
-    <lido:term xml:lang="de">#Iconography 2 (de)#</lido:term>
-    <lido:term xml:lang="en">#Iconography 2 (en)#</lido:term>
+    <lido:term>#Objets | Iconographie 2#</lido:term>
+    <lido:term xml:lang="de">#Objets | Iconographie 2 (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Iconographie 2 (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="period_style_movement">
-    <lido:term>#Period | Style | Movement 1#</lido:term>
-    <lido:term xml:lang="de">#Period | Style | Movement 1 (de)#</lido:term>
-    <lido:term xml:lang="en">#Period | Style | Movement 1 (en)#</lido:term>
+    <lido:term>#Objets | Époque | Mouv. 1#</lido:term>
+    <lido:term xml:lang="de">#Objets | Époque | Mouv. 1 (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Époque | Mouv. 1 (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="period_style_movement">
-    <lido:term>#Period | Style | Movement# 2</lido:term>
-    <lido:term xml:lang="de">#Period | Style | Movement 2 (de)#</lido:term>
-    <lido:term xml:lang="en">#Period | Style | Movement 2 (en)#</lido:term>
-</lido:classification>
+    <lido:term>#Objets | Époque | Mouv. 2#</lido:term>
+    <lido:term xml:lang="de">#Objets | Époque | Mouv. 2 (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Époque | Mouv. 2 (en)#</lido:term>
+</lido:classification></lido:classificationWrap>
 ```
 

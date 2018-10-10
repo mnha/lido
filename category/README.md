@@ -4,7 +4,9 @@ description: Category
 
 # 3 \| category
 
-### Definition
+### Description
+
+#### LIDO
 
 Indicates the category of which this item is an instance, preferably referring to CIDOC-CRM concept definitions.
 
