@@ -2,7 +2,7 @@
 description: Term / Label
 ---
 
-# term \[Droit d'exploitation\]
+# term \[Copyright\]
 
 ### Description
 
@@ -14,9 +14,9 @@ A name for the referred concept, used for indexing.
 
 This element contains the following element:
 
-* Droit d'exploitation
-* Verwertungsrecht
-* Exploitation right
+* `Droit d'auteur`
+* `Urheberrecht`
+* `Copyright`
 
 ### Attributes
 
@@ -29,8 +29,10 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:term>Droit d'exploitation</lido:term>
-<lido:term xml:lang="de">Verwertungsrecht</lido:term>
-<lido:term xml:lang="en">Exploitation right</lido:term>
+<lido:term>Droit d'auteur</lido:term>
+<lido:term xml:lang="de">Urheberrecht</lido:term>
+<lido:term xml:lang="en">Copyright</lido:term>
 ```
+
+
 

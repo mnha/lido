@@ -35,7 +35,7 @@ _This element does not have attributes._
     <lido:recordID
         lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
         lido:source="MuseumPlus MNHA">
-        #Unique Identifier#
+        #ID#
     </lido:recordID>
     <lido:recordType>
         <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">

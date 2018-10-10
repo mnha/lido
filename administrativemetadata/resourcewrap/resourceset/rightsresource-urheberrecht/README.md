@@ -1,37 +1,44 @@
-# rightsResource \[Urheberrecht\]
+---
+description: Rights for Resource
+---
+
+# 5.3.1.3 \| rightsResource \[Copyright\]
 
 ### Description
 
-LIDO
+#### LIDO
 
-xxx
+Information about rights regarding the image or other resource.
 
-MNHA
+Use this sub-element if the holder of the reproduction rights for the image/resource differs from the holder of rights for the work. See also Rights Work above. \(E.g., the work rights are " National Museum of African Art, Smithsonian Instituition \(Washing DC\), " but the image rights are "Photo Frank Khoury."\)
 
-{% hint style="info" %}
-TODO
-{% endhint %}
+#### MNHA
 
 This element contains the following elements:
 
-* • rightsType \[Urheberrecht\]
+* rightsType \[Copyright\]
+* rightsHolder \[Copyright\]
+* creditLine \[Copyright\]
+
+### Attributes
+
+_No attribute is currently defined for this element._
 
 ### Example
 
 ```markup
 <lido:rightsResource>
-
-    <!-- TODO Bezeichnung für Urheberrecht -->
-
     <lido:rightsType>
-        <lido:term>TODO</lido:term>
+        <lido:term>Droit d'auteur</lido:term>
+        <lido:term xml:lang="de">Urheberrecht</lido:term>
+        <lido:term xml:lang="en">Copyright</lido:term>
     </lido:rightsType>
     <lido:rightsHolder>   
         <lido:legalBodyName>
-            <lido:appellationValue>#Name of the photographer#</lido:appellationValue>
+            <lido:appellationValue>#Multimédia | Auteur#</lido:appellationValue>
         </lido:legalBodyName>
     </lido:rightsHolder>
-    <lido:creditLine>#Copyright of photo#</lido:creditLine>
+    <lido:creditLine>#Multimédia | Copyright#</lido:creditLine>
 </lido:rightsResource>
 ```
 

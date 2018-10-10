@@ -2,7 +2,7 @@
 description: Resource Set
 ---
 
-# resourceSet
+# 5.3.1 \| resourceSet
 
 ### Description
 
@@ -37,43 +37,6 @@ The order should correspond to the element order, because the Goobi Viewer does 
 ### Example
 
 ```text
-<lido:resourceSet lido:sortorder="1">
-<lido:resourceID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="MuseumPlus MNHA">#local filename#</lido:resourceID>
-<lido:resourceDescription>#Image Type#</lido:resourceDescription>
-<lido:rightsResource>
-<!-- TODO Bezeichnung für Urheberrecht -->
-<lido:rightsType>
-<lido:term>TODO</lido:term>
-</lido:rightsType>
-<lido:rightsHolder>   
-<lido:legalBodyName>
-<lido:appellationValue>#Name of the photographer#</lido:appellationValue>
-</lido:legalBodyName>
-</lido:rightsHolder>
-<lido:creditLine>#Copyright of photo#</lido:creditLine>
-</lido:rightsResource>
-<lido:rightsResource>
-<!-- TODO Bezeichnung für Verwertungsrecht -->
-<lido:rightsType>
-<lido:term>TODO</lido:term>
-</lido:rightsType>
-<lido:rightsHolder>
-<lido:legalBodyName>
-<lido:appellationValue xml:lang="en">National Museum of History and Art</lido:appellationValue>
-<lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
-<lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst</lido:appellationValue>
-</lido:legalBodyName>
-<lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
-</lido:rightsHolder>
-</lido:rightsResource>
-<lido:rightsResource>
-<lido:rightsType>
-<lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#Licence URI#</lido:conceptID>
-<lido:term xml:lang="en">#Licence Name#</lido:term>
-<lido:term>#Licence Name (French)#</lido:term>
-<lido:term xml:lang="de">#Licence Name (German)#</lido:term>
-</lido:rightsType>  
-</lido:rightsResource>
-</lido:resourceSet>
+
 ```
 

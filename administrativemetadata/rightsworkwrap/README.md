@@ -21,7 +21,7 @@ _This element does not have attributes._
 ### Example
 
 ```markup
-lido:rightsWorkWrap>
+<lido:rightsWorkWrap>
     <lido:rightsWorkSet>
         <lido:creditLine>#Objets | Provenance/Valeurs | Mention obl. (fr)#</lido:creditLine>
         <lido:creditLine xml:lang="de">#Objets | Provenance/Valeurs | Mention obl. (de)#</lido:creditLine>

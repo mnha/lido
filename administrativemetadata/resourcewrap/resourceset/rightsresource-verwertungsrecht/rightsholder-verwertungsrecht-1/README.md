@@ -1,19 +1,27 @@
-# rightsHolder \(“Verwertungsrecht”\)
+---
+description: Rights Holder
+---
+
+# rightsHolder \[Droit d'exploitation\]
 
 ### Description
 
-LIDO
+#### LIDO
 
-xxx
+The holder of the right.
 
-MNHA
+#### MNHA
 
-This element contains the following elements:
+This element contains the following element:
 
-* legalBodyName \(“Verwertungsrecht”\)
-* legalBodyWeblink \(“Verwertungsrecht”\)
+* legalBodyName \[Verwertungsrecht\]
+* legalBodyWeblink \[Verwertungsrecht\]
 
-Example
+### Attributes
+
+_No attribute is currently defined for this element._
+
+### Example
 
 ```markup
 <lido:rightsHolder>

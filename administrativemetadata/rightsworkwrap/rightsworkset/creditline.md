@@ -4,11 +4,15 @@ description: Creditline
 
 # creditLine
 
-### Definition
+### Description
+
+#### LIDO
 
 Acknowledgement of the rights associated with the physical and/or digital object as requested.
 
 Repeat this element only for language variants.
+
+#### MNHA
 
 This element contains a provenance description for display as requested by the owner of the object.
 

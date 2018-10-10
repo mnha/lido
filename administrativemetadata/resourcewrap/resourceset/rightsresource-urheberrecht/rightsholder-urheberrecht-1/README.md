@@ -1,20 +1,24 @@
-# rightsHolder \[Urheberrecht\]
+---
+description: Rights Holder
+---
+
+# rightsHolder \[Copyright\]
 
 ### Description
 
 #### LIDO
 
-xxx
+The holder of the right.
 
 #### MNHA
 
 This element contains the following element:
 
-* legalBodyName \[Urheberrecht\]
+* legalBodyName \[Copyright\]
 
 ### Attributes
 
-xxx
+_No attribute is currently defined for this element._
 
 ### Example
 

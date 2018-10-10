@@ -18,7 +18,9 @@ This element is only optional if a non-standard license without a URI is used ot
 
 ### MuseumPlus
 
-xxx
+{% hint style="info" %}
+The field does not exist yet!
+{% endhint %}
 
 ### Attributes
 
@@ -31,9 +33,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:conceptID
-lido:type="http://terminology.lido-schema.org/identifier_type/uri">
-    #Licence URI#
+<lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+    #The field does not exist yet#
 </lido:conceptID>
 ```
 

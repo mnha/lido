@@ -2,7 +2,7 @@
 description: Rights for Record
 ---
 
-# recordRights \[Droit d'exploitation\]
+# 5.2.4 \| recordRights \[Droit d'exploitation\]
 
 ### Description
 

@@ -33,10 +33,12 @@ _This element does not have attributes._
 
 ```markup
 <lido:rightsType>
-    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#Licence URI#</lido:conceptID>
-    <lido:term>#License Name (fr)#</lido:term>
-    <lido:term xml:lang="de">#License Name (de)#</lido:term>
-    <lido:term xml:lang="en">#License Name (en)#</lido:term>
+    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+        #The field does not exist yet#
+    </lido:conceptID>
+    <lido:term>#The field does not exist yet (fr)#</lido:term>
+    <lido:term xml:lang="de">#The field does not exist yet (de)#</lido:term>
+    <lido:term xml:lang="en">#The field does not exist yet (en)#</lido:term>
 </lido:rightsType>
 ```
 

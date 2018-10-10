@@ -2,7 +2,7 @@
 description: Rights for Record
 ---
 
-# recordRights \[License\]
+# 5.2.5 \| recordRights \[License\]
 
 ### Description
 
@@ -25,10 +25,12 @@ _No attribute is currently defined for this element._
 ```markup
 <lido:recordRights>
     <lido:rightsType>
-        <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#Licence URI#</lido:conceptID>
-        <lido:term xml:lang="en">#License Name#</lido:term>
-        <lido:term>#License Name (French)#</lido:term>
-        <lido:term xml:lang="de">#License Name (German)#</lido:term>
+        <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+            #The field does not exist yet#
+        </lido:conceptID>
+        <lido:term>#The field does not exist yet (fr)#</lido:term>
+        <lido:term xml:lang="de">#The field does not exist yet (de)#</lido:term>
+        <lido:term xml:lang="en">#The field does not exist yet (en)#</lido:term>
     </lido:rightsType>
 </lido:recordRights>
 ```

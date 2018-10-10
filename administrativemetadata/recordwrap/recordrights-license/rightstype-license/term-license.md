@@ -16,7 +16,9 @@ This element is repeated for language variants.
 
 ### MuseumPlus
 
-xxx
+{% hint style="info" %}
+The field does not exist yet!
+{% endhint %}
 
 ### Attributes
 
@@ -29,8 +31,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:term>#License Name (fr)#</lido:term>
-<lido:term xml:lang="de">#License Name (de)#</lido:term>
-<lido:term xml:lang="en">#License Name (en)#</lido:term>
+<lido:term>#The field does not exist yet (fr)#</lido:term>
+<lido:term xml:lang="de">#The field does not exist yet (de)#</lido:term>
+<lido:term xml:lang="en">#The field does not exist yet (en)#</lido:term>
 ```
 

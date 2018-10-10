@@ -1,14 +1,24 @@
-# legalBodyName \[Urheberrecht\]
+---
+description: Legal Body Name
+---
+
+# legalBodyName \[Copyright\]
 
 ### Description
 
-LIDO
+#### LIDO
 
-xxx
+Appellation of the institution or person.
+
+#### MNHA
+
+This element contains the following element:
+
+* appellationValue \[Copyright\]
 
 ### Attributes
 
-xxx
+_No attribute is currently defined for this element._
 
 ### Example
 

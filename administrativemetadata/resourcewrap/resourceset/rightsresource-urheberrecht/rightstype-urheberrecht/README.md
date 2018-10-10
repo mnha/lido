@@ -2,7 +2,7 @@
 description: Rights Type
 ---
 
-# rightsType \[License\]
+# rightsType \[Copyright\]
 
 ### Description
 
@@ -16,19 +16,19 @@ For example: copyright, publication right, data protection right, trademark. Pre
 
 This element contains the following default value:
 
-* conceptID \[License\] 
-* term \[License\]
+* term \[Copyright\]
 
 ### Attributes
 
 _No attribute is currently defined for this element._
 
+### Example
+
 ```markup
 <lido:rightsType>
-    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#Licence URI#</lido:conceptID>
-    <lido:term>#Licence Name (fr)#</lido:term>
-    <lido:term xml:lang="de">#Licence Name (de)#</lido:term>
-    <lido:term xml:lang="en">#Licence Name (en)#</lido:term>
-</lido:rightsType> 
+    <lido:term>Droit d'auteur</lido:term>
+    <lido:term xml:lang="de">Urheberrecht</lido:term>
+    <lido:term xml:lang="en">Copyright</lido:term>
+</lido:rightsType>
 ```
 

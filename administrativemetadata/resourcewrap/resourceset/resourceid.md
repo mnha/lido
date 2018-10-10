@@ -1,14 +1,24 @@
-# resourceID
+---
+description: Resource Identification Number
+---
+
+# 5.3.1.1 \| resourceID
 
 ### Description
 
 #### LIDO
 
-xxx
+The unique numeric or alphanumeric identification of the original \(digital or analogue\) resource.
 
 #### MNHA
 
 This element contains the filename of the image file after the export out of MuseumPlus.
+
+### MuseumPlus
+
+{% hint style="info" %}
+Filename of the image
+{% endhint %}
 
 ### Attributes
 
