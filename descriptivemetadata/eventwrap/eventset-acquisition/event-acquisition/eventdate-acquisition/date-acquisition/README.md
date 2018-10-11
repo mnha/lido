@@ -2,7 +2,7 @@
 description: Date
 ---
 
-# date \[Beginning of existence\]
+# date \[Acquisition\]
 
 ### Description
 
@@ -22,8 +22,4 @@ This element contains the following elements:
 _This element does not have attributes._
 
 ### Example
-
-```markup
-
-```
 

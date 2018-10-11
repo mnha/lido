@@ -1,2 +1,0 @@
-# displayDate \(“Acquisition”\)
-

@@ -2,7 +2,7 @@
 description: Event Type
 ---
 
-# eventType \[Beginning of existence\]
+# eventType \[Acquisition\]
 
 ### Description
 
@@ -14,18 +14,12 @@ The nature of the event associated with an object / work.
 
 This element contains the following elements:
 
-* conceptID \[Beginning of existence\]
-* term \[Beginning of existence\]
+* conceptID \[Acquisition\]
+* term \[Acquisition\]
 
 ### Attributes
 
 _This element does not have attributes._
 
 ### Example
-
-```markup
-
-```
-
-\_\_
 

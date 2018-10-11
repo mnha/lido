@@ -2,7 +2,7 @@
 description: Latest Date
 ---
 
-# latestDate \[Beginning of existence\]
+# latestDate \[Acquisition\]
 
 ### Description
 
@@ -18,15 +18,11 @@ If "Dates \| Siècle \| xxx" is empty this element must contain the same value h
 
 ### MuseumPlus
 
-Dates \| Siècle \| xxx
+Provenance / Valeurs \|  Date d'acq.
 
 ### Attributes
 
 _No attribute is currently defined for this element._
 
 ### Example
-
-```text
-
-```
 

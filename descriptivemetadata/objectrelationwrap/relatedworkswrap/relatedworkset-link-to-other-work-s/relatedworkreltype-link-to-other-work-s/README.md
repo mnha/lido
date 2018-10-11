@@ -1,4 +1,4 @@
-# object \[Bibliography\]
+# relatedWorkRelType \[Link to other work\(s\)\]
 
 ### Description
 

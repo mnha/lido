@@ -4,9 +4,13 @@ description: Event Wrapper
 
 # 4.3 \| eventWrap
 
-### Definition
+### Description
+
+#### LIDO
 
 Wrapper for event sets.
+
+#### MNHA
 
 This element contains the following elements:
 
@@ -23,6 +27,10 @@ An eventWrap element must contain one or more eventSet elements.
 _This element does not have attributes._
 
 ### Example
+
+```text
+...
+```
 
 
 

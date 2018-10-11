@@ -2,7 +2,7 @@
 description: Display Date
 ---
 
-# displayDate \[Beginning of existence\]
+# displayDate \[Acquisition\]
 
 ### Description
 
@@ -14,11 +14,11 @@ It is a concise description of the date, presented in a syntax suitable for disp
 
 #### MNHA
 
-If "Dates \| Siècle" is empty the content of this elements must be generated from the information of the subelement date in a human readable form.
+If "Provenance / Valeurs \|  Date d'acq." is empty the content of this elements must be generated from the information of the subelement date in a human readable form.
 
 ### MuseumPlus
 
-Dates \| Siècle
+Provenance / Valeurs \|  Date d'acq.
 
 ### Attributes
 
@@ -29,10 +29,4 @@ This attribute contains the following default value:
 `de` \| `en`
 
 ### Example
-
-```markup
-
-```
-
-
 

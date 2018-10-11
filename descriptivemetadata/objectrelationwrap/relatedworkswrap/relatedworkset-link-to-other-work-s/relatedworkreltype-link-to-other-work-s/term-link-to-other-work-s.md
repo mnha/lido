@@ -1,4 +1,4 @@
-# object \[Bibliography\]
+# term \[Link to other work\(s\)\]
 
 ### Description
 

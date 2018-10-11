@@ -1,2 +1,12 @@
-# term \(“Bibliography”\)
+# term \[Bibliography\]
+
+### Description
+
+#### LIDO
+
+xxx
+
+#### MNHA
+
+xxx
 

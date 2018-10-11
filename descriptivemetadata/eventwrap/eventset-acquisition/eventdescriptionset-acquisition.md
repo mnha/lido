@@ -1,2 +1,0 @@
-# eventDescriptionSet \(“Acquisition”\)
-

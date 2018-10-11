@@ -2,7 +2,7 @@
 description: Event
 ---
 
-# event \[Beginning of existence\]
+# event \[Acquisition\]
 
 ### Description
 
@@ -16,20 +16,16 @@ All information related to the creation of an object: creator, cutlural context,
 
 This element contains the following elements:
 
-* eventType \[Beginning of existence\]
-* eventActor \[Beginning of existence\]
-* eventDate \[Beginning of existence\]
-* eventMaterialsTech \[Beginning of existence\]
+* eventType \[Acquisition\]
+* eventDate \[Acquisition\]
+* eventMethod \[Acquisition\]
+* eventDescriptionSet \[Acquisition\]
 
-If an event element of the type "Beginning of existence" is used, one of the subelements, eventActor, eventDate or eventMaterialsTech is mandatory.
+If an event element of the type “Acquisition” is used, one of the subelements eventActor, eventMethod or eventDescriptionSet is mandatory.
 
 ### Attributes
 
 _This element does not have attributes._
 
 ### Example
-
-```markup
-
-```
 

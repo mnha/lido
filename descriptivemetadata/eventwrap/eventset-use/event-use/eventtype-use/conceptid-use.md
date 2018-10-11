@@ -2,7 +2,7 @@
 description: Concept Identifier
 ---
 
-# conceptID \[Beginning of existence\]
+# conceptID  \[Use\]
 
 ### Description
 
@@ -16,7 +16,7 @@ Preferably taken from and linking to a published controlled vocabulary.
 
 This element contains the following default value:
 
-`http://terminology.lido-schema.org/eventType/beginning_of_existence`
+* `http://terminology.lido-schema.org/eventType/use`
 
 ### Attributes
 
@@ -24,13 +24,5 @@ This element contains the following default value:
 
 This attribute contains the following default value:
 
-`http://terminology.lido-schema.org/identifier_type/uri`
-
-### Example
-
-```markup
-
-```
-
-
+* `http://terminology.lido-schema.org/identifier_type/uri`
 

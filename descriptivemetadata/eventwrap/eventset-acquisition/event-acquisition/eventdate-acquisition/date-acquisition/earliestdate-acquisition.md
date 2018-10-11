@@ -2,7 +2,7 @@
 description: Earliest Date
 ---
 
-# earliestDate \[Beginning of existence\]
+# earliestDate \[Acquisition\]
 
 ### Description
 
@@ -14,15 +14,11 @@ General format: YYYY\[-MM\[-DD\]\] Format is according to ISO 8601. This may inc
 
 ### MuseumPlus
 
-Dates \| Siècle \| xxx
+Provenance / Valeurs \|  Date d'acq.
 
 ### Attributes
 
 _No attribute is currently defined for this element._
 
 ### Example
-
-```text
-
-```
 

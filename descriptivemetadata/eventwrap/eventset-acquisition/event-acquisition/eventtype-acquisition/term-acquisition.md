@@ -2,7 +2,7 @@
 description: Term / Label
 ---
 
-# term \[Beginning of existence\]
+# term \[Acquisition\]
 
 ### Description
 
@@ -12,11 +12,7 @@ A name for the referred concept, used for indexing.
 
 #### MNHA
 
-This element is used twice for language variants of "Beginning of existence", see example.
-
-{% hint style="info" %}
-There is no preferred French term at the moment.
-{% endhint %}
+This element is repeated three times for language variants of "Acquisition", see example.
 
 ### Attributes
 
@@ -27,8 +23,4 @@ This attribute contains the following default value:
 `de` \| `en`
 
 ### Example
-
-```text
-
-```
 
