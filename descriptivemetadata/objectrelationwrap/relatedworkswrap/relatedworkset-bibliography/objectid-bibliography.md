@@ -1,12 +1,6 @@
 # objectID \[Bibliography\]
 
-### Description
-
-#### LIDO
-
-xxx
-
-#### MNHA
-
-xxx
+{% hint style="info" %}
+To be discussed!
+{% endhint %}
 

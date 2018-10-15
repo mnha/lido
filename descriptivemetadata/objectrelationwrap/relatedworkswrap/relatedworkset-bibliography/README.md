@@ -4,13 +4,9 @@ description: Related Work Set
 
 # relatedWorkSet \[Bibliography\]
 
-### Description
+{% hint style="info" %}
+To be discussed!
+{% endhint %}
 
-#### LIDO
 
-xxx
-
-#### MNHA
-
-xxx
 
