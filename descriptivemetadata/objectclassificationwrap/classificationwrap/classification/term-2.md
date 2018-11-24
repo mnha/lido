@@ -15,7 +15,6 @@ The content of this element depends on the type attribute of the parent element 
 ### MuseumPlus
 
 * Objets \| Collection
-* Objets \| Sous-Collection
 * Objets \| Dénomination
 * Objets \| Iconographie
 * Objets \| Époque / Mouv.

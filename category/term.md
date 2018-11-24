@@ -14,7 +14,9 @@ A name for the referred concept, used for indexing.
 
 This element contains the following default value:
 
-`Man-Made Object`
+* `Objet fabriqué`
+* `Künstlicher Gegenstand`
+* `Man-Made Object`
 
 ### Attributes
 
@@ -22,7 +24,7 @@ This element contains the following default value:
 
 This attribute contains the following default value:
 
-`en`
+`de` \| `en`
 
 ### Example
 
