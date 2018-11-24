@@ -14,9 +14,9 @@ Wrapper for event sets.
 
 This element contains the following elements:
 
-* eventSet \[Beginning of existence\]
-* eventSet \[Use\]
-* eventSet \[Acquisition\]
+* `eventSet` \[Beginning of existence\]
+* `eventSet` \[Use\]
+* `eventSet` \[Acquisition\]
 
 This LIDO schema uses three different types of events. They are described separately for a better overview. The element names are suffixed with their according English eventType/term.
 
@@ -28,8 +28,21 @@ _This element does not have attributes._
 
 ### Example
 
-```text
-...
+```markup
+<lido:eventWrap>
+    <!-- eventSet [Beginning of existence] -->
+    <lido:eventSet>
+        ...
+    </lido:eventSet>
+    <!-- eventSet [Use] -->
+    <lido:eventSet>
+        ...
+    </lido:eventSet>
+    <!-- eventSet [Acquisition] --> <!-- only used for donations and bequests -->
+    <lido:eventSet>
+        ...
+    </lido:eventSet>
+</lido:eventWrap>
 ```
 
 

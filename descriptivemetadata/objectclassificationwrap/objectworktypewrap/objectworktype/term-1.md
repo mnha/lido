@@ -29,8 +29,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:term>#Domaine(s) 1 (fr)#</lido:term>
-<lido:term xml:lang="de">#Domaine(s) 2 (de)#</lido:term>
-<lido:term xml:lang="en">#Domaine(s) 3 (en)#</lido:term>
+<lido:term>#Objets | Domaine(s) 1 (fr)#</lido:term>
+<lido:term xml:lang="de">#Objets | Domaine(s) 1 (de)#</lido:term>
+<lido:term xml:lang="en">#Objets | Domaine(s) 1 (en)#</lido:term>
 ```
 

@@ -24,14 +24,6 @@ The content of the subelement termis from the MuseumPlus field "Objets \| Collec
 The field does not exist yet!
 {% endhint %}
 
-`sous_collection`
-
-The content of the subelement termis from the MuseumPlus field "Objets \| Collection"
-
-{% hint style="info" %}
-The field does not exist yet!
-{% endhint %}
-
 `designation`
 
 The content of the subelement termis from the MuseumPlus field "Objets \| Dénomination"
@@ -48,39 +40,37 @@ The content of the subelement termis from the MuseumPlus field "Objets \| Époqu
 
 ```markup
 <lido:classification lido:type="collection">
-    <lido:term>#Objets | Collection#</lido:term>
+    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
+        #Vocabulaire | Nom interne# <!-- format: collection#subcollection -->
+    </lido:conceptID>
+    <lido:term>#Objets | Collection (fr)#</lido:term>
     <lido:term xml:lang="de">#Objets | Collection (de)#</lido:term>
     <lido:term xml:lang="en">#Objets | Collection (en)#</lido:term>
 </lido:classification>
-<lido:classification lido:type="sous_collection">
-    <lido:term>#Objets | Sous-Collection#</lido:term>
-    <lido:term xml:lang="de">#Objets | Sous-Collection (de)#</lido:term>
-    <lido:term xml:lang="en">#Objets | Sous-Collection (en)#</lido:term>
-</lido:classification>
 <lido:classification lido:type="designation">
-    <lido:term>#Objets | Dénomination#</lido:term>
+    <lido:term>#Objets | Dénomination (fr)#</lido:term>
     <lido:term xml:lang="de">#Objets | Dénomination (de)#</lido:term>
     <lido:term xml:lang="en">#Objets | Dénomination (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="iconography">
-    <lido:term>#Objets | Iconographie 1#</lido:term>
+    <lido:term>#Objets | Iconographie 1 (fr)#</lido:term>
     <lido:term xml:lang="de">#Objets | Iconographie 1 (de)#</lido:term>
     <lido:term xml:lang="en">#Objets | Iconographie 1 (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="iconography">
-    <lido:term>#Objets | Iconographie 2#</lido:term>
+    <lido:term>#Objets | Iconographie 2 (fr)#</lido:term>
     <lido:term xml:lang="de">#Objets | Iconographie 2 (de)#</lido:term>
     <lido:term xml:lang="en">#Objets | Iconographie 2 (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="period_style_movement">
-    <lido:term>#Objets | Époque | Mouv. 1#</lido:term>
-    <lido:term xml:lang="de">#Objets | Époque | Mouv. 1 (de)#</lido:term>
-    <lido:term xml:lang="en">#Objets | Époque | Mouv. 1 (en)#</lido:term>
+    <lido:term>#Objets | Époque / Mouv. 1 (fr)#</lido:term>
+    <lido:term xml:lang="de">#Objets | Époque / Mouv. 1 (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Époque / Mouv. 1 (en)#</lido:term>
 </lido:classification>
 <lido:classification lido:type="period_style_movement">
-    <lido:term>#Objets | Époque | Mouv. 2#</lido:term>
-    <lido:term xml:lang="de">#Objets | Époque | Mouv. 2 (de)#</lido:term>
-    <lido:term xml:lang="en">#Objets | Époque | Mouv. 2 (en)#</lido:term>
-</lido:classification></lido:classificationWrap>
+    <lido:term>#Objets | Époque / Mouv. 2 (fr)#</lido:term>
+    <lido:term xml:lang="de">#Objets | Époque / Mouv. 2 (de)#</lido:term>
+    <lido:term xml:lang="en">#Objets | Époque / Mouv. 2 (en)#</lido:term>
+</lido:classification>
 ```
 

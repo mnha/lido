@@ -19,10 +19,6 @@ _No attribute is currently defined for this element._
 ### Example
 
 ```markup
-<lido:objectDescriptionSet>
-    <lido:descriptiveNoteValue>#Description (fr)#</lido:descriptiveNoteValue>
-    <lido:descriptiveNoteValue xml:lang="de">#Description (de)#</lido:descriptiveNoteValue>
-    <lido:descriptiveNoteValue xml:lang="en">#Description (en)#</lido:descriptiveNoteValue>
-</lido:objectDescriptionSet>
+
 ```
 

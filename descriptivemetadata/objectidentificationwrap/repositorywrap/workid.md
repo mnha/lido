@@ -19,7 +19,7 @@ _No attribute is currently defined for this element._
 ### Example
 
 ```markup
-<lido:workID>#Inventory Number#</lido:workID>
+
 ```
 
 

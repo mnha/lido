@@ -24,3 +24,9 @@ This attribute contains the following default value:
 
 ### Example
 
+```markup
+ <lido:term>Utilisation</lido:term>
+ <lido:term xml:lang="de">Gebrauch</lido:term>
+ <lido:term xml:lang="en">Use</lido:term>
+```
+

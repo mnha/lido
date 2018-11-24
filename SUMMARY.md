@@ -141,4 +141,5 @@
         * [rightsType \[License\]](administrativemetadata/resourcewrap/resourceset/rightsresource-license/rightstype-license-1/README.md)
           * [conceptID \[License\]](administrativemetadata/resourcewrap/resourceset/rightsresource-license/rightstype-license-1/conceptid-license-1.md)
           * [term \[License\]](administrativemetadata/resourcewrap/resourceset/rightsresource-license/rightstype-license-1/term-license-1.md)
+* [File](file.md)
 

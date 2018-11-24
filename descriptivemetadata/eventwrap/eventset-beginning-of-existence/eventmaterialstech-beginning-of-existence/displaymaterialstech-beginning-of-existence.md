@@ -27,6 +27,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-
+<lido:displayMaterialsTech>#Objets | Mat./Tech. 1 (fr)#</lido:displayMaterialsTech>
+<lido:displayMaterialsTech xml:lang="de">#Objets | Mat./Tech. 1 (de)#</lido:displayMaterialsTech>
+<lido:displayMaterialsTech xml:lang="en">#Objets | Mat./Tech. 1 (en)#</lido:displayMaterialsTech>
 ```
 

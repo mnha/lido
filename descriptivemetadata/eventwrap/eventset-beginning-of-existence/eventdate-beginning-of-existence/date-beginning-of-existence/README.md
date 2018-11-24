@@ -24,6 +24,9 @@ _This element does not have attributes._
 ### Example
 
 ```markup
-
+<lido:date>
+    <lido:earliestDate>#Objets | Dates/Siècle | XXX (start)#</lido:earliestDate>
+    <lido:latestDate>#Objets | Dates/Siècle | XXX (end)#</lido:latestDate>
+</lido:date>
 ```
 

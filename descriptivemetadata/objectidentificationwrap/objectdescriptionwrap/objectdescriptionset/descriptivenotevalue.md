@@ -25,9 +25,7 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:descriptiveNoteValue>#Description (fr)#</lido:descriptiveNoteValue>
-<lido:descriptiveNoteValue xml:lang="de">#Description (de)#</lido:descriptiveNoteValue>
-<lido:descriptiveNoteValue xml:lang="en">#Description (en)#</lido:descriptiveNoteValue>
+
 ```
 
 

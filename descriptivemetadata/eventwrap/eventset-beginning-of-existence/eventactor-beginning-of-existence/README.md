@@ -19,7 +19,16 @@ _No attribute is currently defined for this element._
 ### Example
 
 ```markup
-
+<lido:eventActor>
+    <lido:displayActorInRole>#Objets | Aut./Interv. 1 (fr)#</lido:displayActorInRole>
+    <lido:displayActorInRole xml:lang="de">#Objets | Aut./Interv. 1 (de)#</lido:displayActorInRole>
+    <lido:displayActorInRole xml:lang="en">#Objets | Aut./Interv. 1 (en)#</lido:displayActorInRole>
+</lido:eventActor>
+<lido:eventActor>
+    <lido:displayActorInRole>#Objets | Aut./Interv. 2 (fr)#</lido:displayActorInRole>
+    <lido:displayActorInRole xml:lang="de">#Objets | Aut./Interv. 2 (de)#</lido:displayActorInRole>
+    <lido:displayActorInRole xml:lang="en">#Objets | Aut./Interv. 2 (en)#</lido:displayActorInRole>
+</lido:eventActor>
 ```
 
 \_\_

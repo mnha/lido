@@ -20,9 +20,9 @@ This element contains the link to the described object in the MNHA Portal. It co
 
 ID
 
-https://collections.mnha.lu/mnha/mnha\[ID\]
+https://collections.mnha.lu/object/mnha\[ID\]
 
-Example: https://collections.mnha.lu/mnha/mnha38837
+Example: https://collections.mnha.lu/object/mnha38837
 
 ### Attributes
 
@@ -37,7 +37,7 @@ This attribute contains the following default value:
 ```markup
 <lido:objectPublishedID 
 lido:type="http://terminology.lido-schema.org/identifier_type/uri">
-    #https://collections.mnha.lu/mnha/mnha[ID]#
+    #https://collections.mnha.lu/object/mnha[ID]#
 </lido:objectPublishedID>
 ```
 

@@ -17,10 +17,6 @@ _No attribute is currently defined for this element._
 ### Example
 
 ```markup
-<lido:namePlaceSet>
-    <lido:appellationValue>#Location in museum (Text) (fr)#</lido:appellationValue>
-    <lido:appellationValue xml:lang="de">#Location in museum (Text) (de)#</lido:appellationValue>
-    <lido:appellationValue xml:lang="en">#Location in museum (Text) (en)#</lido:appellationValue
-</lido:namePlaceSet>
+
 ```
 

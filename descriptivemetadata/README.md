@@ -17,15 +17,15 @@ If only a few data fields \(e.g. title\) are provided in more than one language,
 #### MNHA
 
 {% hint style="info" %}
-MNHA collections platform: for all data fields that are provided in more than one language \(FR \| DE \| EN\), the respective test elements are repeated specifying the lang attribute on the text level.
+MNHA collections platform: for all data fields that are provided in more than one language \(FR \| DE \| EN\), the respective elements are repeated specifying the lang attribute on the text level.
 {% endhint %}
 
 This element contains the following elements:
 
-* objectClassificationWrap
-* objectIdentificationWrap
-* eventWrap
-* obkectRelationWrap
+* `objectClassificationWrap`
+* `objectIdentificationWrap`
+* `eventWrap`
+* `obkectRelationWrap`
 
 ### Attributes
 
@@ -40,16 +40,16 @@ This attribute contains the following default value:
 ```markup
 <lido:descriptiveMetadata xml:lang="fr">
     <lido:objectClassificationWrap>
-        ...
+        <!-- ... -->
     </lido:objectClassificationWrap>
     <lido:objectIdentificationWrap>
-        ...
+        <!-- ... -->
     </lido:objectIdentificationWrap>
     <lido:eventWrap>
-        ...
+        <!-- ... -->
     </lido:eventWrap>
     <lido:objectRelationWrap>
-        ...
+        <!-- ... -->
     </lido:objectRelationWrap>
 </lido:descriptiveMetadata>
 ```

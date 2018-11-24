@@ -27,6 +27,12 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
+<lido:term>
+    Objet fabriqué
+</lido:term>
+<lido:term xml:lang="de">
+    Künstlicher Gegenstand
+</lido:term>
 <lido:term xml:lang="en">
     Man-Made Object
 </lido:term>

@@ -23,3 +23,14 @@ _This element does not have attributes._
 
 ### Example
 
+```markup
+<lido:eventType>
+    <lido:conceptID
+        lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/eventType/use
+    </lido:conceptID>
+    <lido:term>Utilisation</lido:term>
+    <lido:term xml:lang="de">Gebrauch</lido:term>
+    <lido:term xml:lang="en">Use</lido:term>
+</lido:eventType>
+```
+

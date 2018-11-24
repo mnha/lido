@@ -15,7 +15,7 @@ A unique lido record identification preferably composed of an identifier for the
 This element contains the unique identifier of the LIDO record.
 
 {% hint style="info" %}
-The Goobi Viewer only allows letters, numbers, underscores and hyphens in the identifier.
+The MNHA's publishing platform only allows letters, numbers, underscores and hyphens in the identifier.
 {% endhint %}
 
 ### MuseumPlus

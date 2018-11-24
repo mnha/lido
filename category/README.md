@@ -25,6 +25,12 @@ _This element does not have attributes._
     <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
         http://www.cidoc-crm.org/crm-concepts/#E22
     </lido:conceptID>
+    <lido:term>
+        Objet fabriqué
+    </lido:term>
+    <lido:term xml:lang="de">
+        Künstlicher Gegenstand
+    </lido:term>
     <lido:term xml:lang="en">
         Man-Made Object
     </lido:term>

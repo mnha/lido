@@ -22,7 +22,7 @@ _No attribute is currently defined for this element._
 
 ### Example
 
-```text
-
+```markup
+<lido:earliestDate>#Objets | Dates/Siècle | XXX (start)#</lido:earliestDate>
 ```
 

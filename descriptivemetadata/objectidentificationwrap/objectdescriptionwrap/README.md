@@ -20,11 +20,11 @@ _This element does not have attributes._
 
 ```markup
 <lido:objectDescriptionWrap>
-    <lido:objectDescriptionSet>
-        <lido:descriptiveNoteValue>#Description (fr)#</lido:descriptiveNoteValue>
-        <lido:descriptiveNoteValue xml:lang="de">#Description (de)#</lido:descriptiveNoteValue>
-        <lido:descriptiveNoteValue xml:lang="en">#Description (en)#</lido:descriptiveNoteValue>
-    </lido:objectDescriptionSet>
-</lido:objectDescriptionWrap>
+        <lido:objectDescriptionSet>
+            <lido:descriptiveNoteValue>#Objets | Description (fr)#</lido:descriptiveNoteValue>
+            <lido:descriptiveNoteValue xml:lang="de">#Objets | Description (de)#</lido:descriptiveNoteValue>
+            <lido:descriptiveNoteValue xml:lang="en">#Objets | Description (en)#</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+    </lido:objectDescriptionWrap>
 ```
 

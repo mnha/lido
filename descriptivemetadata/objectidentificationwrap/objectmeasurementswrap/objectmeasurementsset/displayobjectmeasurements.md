@@ -27,8 +27,6 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:displayObjectMeasurements>#Dimensions 1 (fr)#</lido:displayObjectMeasurements>
-<lido:displayObjectMeasurements xml:lang="de">#Dimensions 1 (de)#</lido:displayObjectMeasurements>
-<lido:displayObjectMeasurements xml:lang="en">#Dimensions 1 (en)#</lido:displayObjectMeasurements>
+
 ```
 

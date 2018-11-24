@@ -1,0 +1,532 @@
+<lido:lido xmlns:lido="http://www.lido-schema.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd">
+    
+    <!-- 1 | LIDO Metadata Record-ID -->
+    <lido:lidoRecID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
+        #mnha[ID]#
+    </lido:lidoRecID>
+    
+    <!-- 2 | Published Object Identifier -->
+    <lido:objectPublishedID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+        #https://collections.mnha.lu/object/mnha[ID]#
+    </lido:objectPublishedID>
+    
+    <!-- 3 | Category -->
+    <lido:category>
+        <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+            http://www.cidoc-crm.org/crm-concepts/#E22
+        </lido:conceptID>
+        <lido:term>
+            Objet fabriqué
+        </lido:term>
+        <lido:term xml:lang="de">
+            Künstlicher Gegenstand
+        </lido:term>
+        <lido:term xml:lang="en">
+            Man-Made Object
+        </lido:term>
+    </lido:category>
+    
+    <!-- 4 | Descriptive Metadata -->
+    <lido:descriptiveMetadata xml:lang="fr">
+    
+        <!-- 4.1 | Object Classification Wrapper -->
+        <lido:objectClassificationWrap>
+            
+            <!-- Object/Work Type Wrapper -->
+            <lido:objectWorkTypeWrap>
+                <lido:objectWorkType>
+                    <lido:term>#Objets | Domaine(s) 1 (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Domaine(s) 1 (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Domaine(s) 1 (en)#</lido:term>
+                </lido:objectWorkType>
+                <lido:objectWorkType>
+                    <lido:term>#Objets | Domaine(s) 2 (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Domaine(s) 2 (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Domaine(s) 2 (en)#</lido:term>
+                </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+            
+            <!-- Classification Wrapper -->
+            <lido:classificationWrap>
+                
+                <!-- Collection -->
+                <lido:classification lido:type="collection">
+                    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
+                        #Vocabulaire | Nom interne# <!-- format: collection#subcollection -->
+                    </lido:conceptID>
+                    <lido:term>#Objets | Collection (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Collection (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Collection (en)#</lido:term>
+                </lido:classification>
+                
+                <!-- Dénomination -->
+                <lido:classification lido:type="designation">
+                    <lido:term>#Objets | Dénomination (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Dénomination (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Dénomination (en)#</lido:term>
+                </lido:classification>
+                
+                <!-- Iconographie -->
+                <lido:classification lido:type="iconography">
+                    <lido:term>#Objets | Iconographie 1 (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Iconographie 1 (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Iconographie 1 (en)#</lido:term>
+                </lido:classification>
+                <lido:classification lido:type="iconography">
+                    <lido:term>#Objets | Iconographie 2 (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Iconographie 2 (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Iconographie 2 (en)#</lido:term>
+                </lido:classification>
+                
+                <!-- Époque | Mouv. -->
+                <lido:classification lido:type="period_style_movement">
+                    <lido:term>#Objets | Époque / Mouv. 1 (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Époque / Mouv. 1 (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Époque / Mouv. 1 (en)#</lido:term>
+                </lido:classification>
+                <lido:classification lido:type="period_style_movement">
+                    <lido:term>#Objets | Époque / Mouv. 2 (fr)#</lido:term>
+                    <lido:term xml:lang="de">#Objets | Époque / Mouv. 2 (de)#</lido:term>
+                    <lido:term xml:lang="en">#Objets | Époque / Mouv. 2 (en)#</lido:term>
+                </lido:classification></lido:classificationWrap>
+        </lido:objectClassificationWrap>
+        
+        <!-- 4.2 | Object Identification Wrapper -->
+        <lido:objectIdentificationWrap>
+            
+            <!-- Title or Object Name Wrapper -->
+            <lido:titleWrap>
+                <lido:titleSet>
+                    <lido:appellationValue>#Title (fr)#</lido:appellationValue>
+                    <lido:appellationValue xml:lang="de">#Title (de)#</lido:appellationValue>
+                    <lido:appellationValue xml:lang="en">#Title (en)#</lido:appellationValue>
+                </lido:titleSet>
+                <lido:titleSet lido:type="other">
+                    <lido:appellationValue>#Title (fr)#</lido:appellationValue>
+                    <lido:appellationValue xml:lang="de">#Title (other) (de)#</lido:appellationValue>
+                    <lido:appellationValue xml:lang="en">#Title (other) (en)#</lido:appellationValue>
+                </lido:titleSet>
+            </lido:titleWrap>
+            
+            <!-- Inscriptions and other Marks Wrapper -->
+            <lido:inscriptionsWrap>
+                <lido:inscriptions>
+                    <lido:inscriptionTranscription>
+                            #Objets | Inscription(s) | Transcription 1#
+                    </lido:inscriptionTranscription>
+                    <lido:inscriptionDescription lido:type="type">
+                        <lido:descriptiveNoteValue>#Objets | Inscription(s) | Type 1 (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Inscription(s) | Type 1 (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Inscription(s) | Type 1 (en)#</lido:descriptiveNoteValue>
+                    </lido:inscriptionDescription>
+                    <lido:inscriptionDescription lido:type="location">
+                        <lido:descriptiveNoteValue>#Objets | Inscription(s) | Emplacement 1 (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Inscription(s) | Emplacement 1 (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Inscription(s) | Emplacement 1 (en)#</lido:descriptiveNoteValue>
+                    </lido:inscriptionDescription>
+                </lido:inscriptions>
+                <lido:inscriptions>
+                    <lido:inscriptionTranscription>
+                            #Objets | Inscription(s) | Transcription 2#
+                    </lido:inscriptionTranscription>
+                    <lido:inscriptionDescription lido:type="type">
+                        <lido:descriptiveNoteValue>#Objets | Inscription(s) | Type 2 (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Inscription(s) | Type 2 (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Inscription(s) | Type 2 (en)#</lido:descriptiveNoteValue>
+                    </lido:inscriptionDescription>
+                    <lido:inscriptionDescription lido:type="location">
+                        <lido:descriptiveNoteValue>#Objets | Inscription(s) | Emplacement 2 (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Inscription(s) | Emplacement 2 (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Inscription(s) | Emplacement 2 (en)#</lido:descriptiveNoteValue>
+                    </lido:inscriptionDescription>
+                </lido:inscriptions>
+            </lido:inscriptionsWrap>
+            
+            <!-- Custody/Repository Location (Wrapper) -->
+            <lido:repositoryWrap>
+                <lido:repositorySet
+                    lido:type="http://terminology.lido-schema.org/repositorySet_type/current_repository_or_location">
+                    
+                    <!-- Custody: Institution / Person -->
+                    <lido:repositoryName>
+                        <lido:legalBodyName>
+                            <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
+                            <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
+                            <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
+                        </lido:legalBodyName>
+                        <lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
+                    </lido:repositoryName>
+                    
+                    <!-- Custody: Identification number -->
+                    <lido:workID>
+                        #Inventory Number#
+                    </lido:workID>
+                    
+                    <!-- Location --> <!-- IMPORTANT: only the location of objects in the museum are getting displayed -->
+                    <lido:repositoryLocation>
+                        <lido:placeID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
+                            #Location in museum (Link)#
+                        </lido:placeID>
+                        <lido:namePlaceSet>
+                            <lido:appellationValue>#Objets | Empl. actuel (Text) (fr)#</lido:appellationValue>
+                            <lido:appellationValue xml:lang="de">#Objets | Empl. actuel (Text) (de)#</lido:appellationValue>
+                            <lido:appellationValue xml:lang="en">#Objets | Empl. actuel (Text) (en)#</lido:appellationValue>
+                        </lido:namePlaceSet>
+                    </lido:repositoryLocation>
+                </lido:repositorySet>
+            </lido:repositoryWrap>
+            
+            <!-- Object Description/Descriptive Note Wrapper -->
+            <lido:objectDescriptionWrap>
+                <lido:objectDescriptionSet>
+                    <lido:descriptiveNoteValue>#Objets | Description (fr)#</lido:descriptiveNoteValue>
+                    <lido:descriptiveNoteValue xml:lang="de">#Objets | Description (de)#</lido:descriptiveNoteValue>
+                    <lido:descriptiveNoteValue xml:lang="en">#Objets | Description (en)#</lido:descriptiveNoteValue>
+                </lido:objectDescriptionSet>
+            </lido:objectDescriptionWrap>
+            
+            <!-- Object Measurements Wrapper -->
+            <lido:objectMeasurementsWrap>
+                <lido:objectMeasurementsSet>
+                    <lido:displayObjectMeasurements>#Objets | Dimensions 1 (fr)#</lido:displayObjectMeasurements>
+                    <lido:displayObjectMeasurements xml:lang="de">#Objets | Dimensions 1 (de)#</lido:displayObjectMeasurements>
+                    <lido:displayObjectMeasurements xml:lang="en">#Objets | Dimensions 1 (en)#</lido:displayObjectMeasurements>
+                </lido:objectMeasurementsSet>
+                <lido:objectMeasurementsSet>
+                    <lido:displayObjectMeasurements>#Objets | Dimensions 2 (fr)#</lido:displayObjectMeasurements>
+                    <lido:displayObjectMeasurements xml:lang="de">#Objets | Dimensions 2 (de)#</lido:displayObjectMeasurements>
+                    <lido:displayObjectMeasurements xml:lang="en">#Objets | Dimensions 2 (en)#</lido:displayObjectMeasurements>
+                </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+        </lido:objectIdentificationWrap>
+        
+        <!-- 4.3 | Event Wrapper -->
+        <lido:eventWrap>
+            
+            <!-- eventSet [Beginning of existence] -->
+            <lido:eventSet>
+                <lido:event>
+                    
+                    <!-- eventType [Beginning of existence] -->
+                    <lido:eventType>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+                            http://terminology.lido-schema.org/eventType/beginning_of_existence
+                        </lido:conceptID>
+                        <lido:term>Début d'existence</lido:term>
+                        <lido:term xml:lang="de">Daseinsbeginn</lido:term>
+                        <lido:term xml:lang="en">Beginning of existence</lido:term>
+                    </lido:eventType>
+                    
+                    <!-- eventActor [Beginning of existence] -->
+                    <lido:eventActor>
+                        <lido:displayActorInRole>#Objets | Aut./Interv. 1 (fr)#</lido:displayActorInRole>
+                        <lido:displayActorInRole xml:lang="de">#Objets | Aut./Interv. 1 (de)#</lido:displayActorInRole>
+                        <lido:displayActorInRole xml:lang="en">#Objets | Aut./Interv. 1 (en)#</lido:displayActorInRole>
+                    </lido:eventActor>
+                    <lido:eventActor>
+                        <lido:displayActorInRole>#Objets | Aut./Interv. 2 (fr)#</lido:displayActorInRole>
+                        <lido:displayActorInRole xml:lang="de">#Objets | Aut./Interv. 2 (de)#</lido:displayActorInRole>
+                        <lido:displayActorInRole xml:lang="en">#Objets | Aut./Interv. 2 (en)#</lido:displayActorInRole>
+                    </lido:eventActor>
+                    
+                    <!-- eventDate [Beginning of existence] -->
+                    <lido:eventDate>
+                        <lido:displayDate>#Objets | Dates/Siècle | Affichage (fr)#</lido:displayDate>
+                        <lido:displayDate xml:lang="de">#Objets | Dates/Siècle | Affichage (de)#</lido:displayDate>
+                        <lido:displayDate xml:lang="en">#Objets | Dates/Siècle | Affichage (en)#</lido:displayDate>
+                        <lido:date> <!-- Attention: format = ISO 8601 -->
+                            <lido:earliestDate>#Objets | Dates/Siècle | XXX (start)#</lido:earliestDate>
+                            <lido:latestDate>#Objets | Dates/Siècle | XXX (end)#</lido:latestDate>
+                        </lido:date>
+                    </lido:eventDate>
+                    
+                    <!-- eventMaterialsTech [Beginning of existence] -->
+                    <lido:eventMaterialsTech>
+                        <lido:displayMaterialsTech>#Objets | Mat./Tech. 1 (fr)#</lido:displayMaterialsTech>
+                        <lido:displayMaterialsTech xml:lang="de">#Objets | Mat./Tech. 1 (de)#</lido:displayMaterialsTech>
+                        <lido:displayMaterialsTech xml:lang="en">#Objets | Mat./Tech. 1 (en)#</lido:displayMaterialsTech>
+                    </lido:eventMaterialsTech>
+                    <lido:eventMaterialsTech>
+                        <lido:displayMaterialsTech>#Objets | Mat./Tech. 2 (fr)#</lido:displayMaterialsTech>
+                        <lido:displayMaterialsTech xml:lang="de">#Objets | Mat./Tech. 2 (de)#</lido:displayMaterialsTech>
+                        <lido:displayMaterialsTech xml:lang="en">#Objets | Mat./Tech. 2 (en)#</lido:displayMaterialsTech>
+                    </lido:eventMaterialsTech>
+                </lido:event>
+            </lido:eventSet>
+            
+            <!-- eventSet [Use] -->
+            <lido:eventSet>
+                <lido:event>
+                    <lido:eventType>
+                        <lido:conceptID
+                            lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/eventType/use
+                        </lido:conceptID>
+                        <lido:term>Utilisation</lido:term>
+                        <lido:term xml:lang="de">Gebrauch</lido:term>
+                        <lido:term xml:lang="en">Use</lido:term>
+                    </lido:eventType>
+                    <lido:eventDescriptionSet>
+                        <lido:descriptiveNoteValue>#Objets | Utilisation 1 (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Utilisation 1 (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Utilisation 1 (en)#</lido:descriptiveNoteValue>
+                    </lido:eventDescriptionSet>
+                </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+                <lido:event>
+                    <lido:eventType>
+                        <lido:conceptID
+                            lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/eventType/use
+                        </lido:conceptID>
+                        <lido:term>Utilisation</lido:term>
+                        <lido:term xml:lang="de">Gebrauch</lido:term>
+                        <lido:term xml:lang="en">Use</lido:term>
+                    </lido:eventType>
+                    <lido:eventDescriptionSet>
+                        <lido:descriptiveNoteValue>#Objets | Utilisation 2 (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Utilisation 2 (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Utilisation 2 (en)#</lido:descriptiveNoteValue>
+                    </lido:eventDescriptionSet>
+                </lido:event>
+            </lido:eventSet>
+            
+            <!-- eventSet [Acquisition] --> <!-- only used for donations and bequests -->
+            <lido:eventSet>
+                <lido:event>
+                    <lido:eventType>
+                        <lido:conceptID
+                            lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/eventType/acquisition
+                        </lido:conceptID>
+                        <lido:term>Acquisition</lido:term>
+                        <lido:term xml:lang="de">Erwerbung</lido:term>
+                        <lido:term xml:lang="en">Acquisition</lido:term>
+                    </lido:eventType>
+                    <lido:eventDate>
+                        <lido:displayDate>#Objets | Date d'acq.#</lido:displayDate>
+                        <lido:date>
+                            <lido:earliestDate>#Acquisition date ISO 8601#</lido:earliestDate>
+                            <lido:latestDate>#Acquisition date ISO 8601#</lido:latestDate>
+                        </lido:date>
+                    </lido:eventDate>
+                    <lido:eventMethod>
+                        <lido:term>#Objets | Mode d'acq. (fr)#</lido:term>
+                        <lido:term xml:lang="de">#Objets | Mode d'acq. (de)#</lido:term>
+                        <lido:term xml:lang="de">#Objets | Mode d'acq. (en)#</lido:term>
+                    </lido:eventMethod>
+                    <lido:eventDescriptionSet>
+                        <lido:descriptiveNoteValue>#Objets | Mention obl. (fr)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="de">#Objets | Mention obl. (de)#</lido:descriptiveNoteValue>
+                        <lido:descriptiveNoteValue xml:lang="en">#Objets | Mention obl. (en)#</lido:descriptiveNoteValue>
+                    </lido:eventDescriptionSet>
+                </lido:event>
+            </lido:eventSet>
+        </lido:eventWrap>
+        
+        <!-- 4.4 | Object Relation Wrapper -->
+        <lido:objectRelationWrap>
+            <lido:relatedWorksWrap>
+                
+                <!-- relatedWorkSet [Link to other work(s)] -->
+                
+                <lido:relatedWorkSet>
+                    <lido:relatedWork>
+                        <lido:displayObject>#Objet lié#</lido:displayObject>
+                        <lido:displayObject xml:lang="de">#Verknüpfte Objekte#</lido:displayObject>
+                        <lido:displayObject xml:lang="en">#Related work#</lido:displayObject>
+                        <lido:object>
+                            <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="MuseumPlus MNHA">
+                                #mnha[ID] 1#
+                            </lido:objectID>
+                        </lido:object>
+                    </lido:relatedWork>
+                    <lido:relatedWorkRelType>
+                        <lido:term>#Objets | Réf. obj-obj. | Type (fr) 1#</lido:term>
+                        <lido:term xml:lang="de">#Objets | Réf. obj-obj. | Type (de) 1#</lido:term>
+                        <lido:term xml:lang="en">#Objets | Réf. obj-obj. | Type (en) 1#</lido:term>
+                    </lido:relatedWorkRelType>
+                </lido:relatedWorkSet>
+                <lido:relatedWorkSet>
+                    <lido:relatedWork>
+                        <lido:displayObject>#Objet lié#</lido:displayObject>
+                        <lido:displayObject xml:lang="de">#Verknüpfte Objekte#</lido:displayObject>
+                        <lido:displayObject xml:lang="en">#Related work#</lido:displayObject>
+                        <lido:object>
+                            <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="MuseumPlus MNHA">
+                                #mnha[ID] 2#
+                            </lido:objectID>
+                        </lido:object>
+                    </lido:relatedWork>
+                    <lido:relatedWorkRelType>
+                        <lido:term>#Objets | Réf. obj-obj. | Type (fr) 2#</lido:term>
+                        <lido:term xml:lang="de">#Objets | Réf. obj-obj. | Type (de) 2#</lido:term>
+                        <lido:term xml:lang="en">#Objets | Réf. obj-obj. | Type (en) 2#</lido:term>
+                    </lido:relatedWorkRelType>
+                </lido:relatedWorkSet>
+                
+                <!-- relatedWorkSet [Bibliography] -->
+                
+                <lido:relatedWorkSet>
+                    <lido:relatedWork>
+                        
+                        <!-- later
+                        <lido:displayObject>#Bibliography: display text#</lido:displayObject>
+                        <lido:displayObject>#Bibliography: display text#</lido:displayObject>
+                        <lido:displayObject>#Bibliography: display text#</lido:displayObject>
+                        -->
+                        
+                        <lido:object>
+                            <lido:objectWebResource lido:formatResource="text/html">
+                                #Aleph LINK#
+                            </lido:objectWebResource>
+                            <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="a-z.lu">
+                                #Aleph ID#
+                            </lido:objectID>
+                        </lido:object>
+                    </lido:relatedWork>
+                    <lido:relatedWorkRelType>
+                        <lido:term>Littérature en contexte</lido:term>
+                        <lido:term xml:lang="de">Literatur im Kontext</lido:term>
+                        <lido:term xml:lang="en">Literature in context</lido:term>
+                    </lido:relatedWorkRelType>
+                </lido:relatedWorkSet>
+                
+            </lido:relatedWorksWrap>
+        </lido:objectRelationWrap>
+        
+    </lido:descriptiveMetadata>
+    
+    <!-- 5 | Administrative Metadata -->
+    <lido:administrativeMetadata xml:lang="fr">
+        
+        <!-- Rights for Work Wrapper --> <!-- Copyright Work -->
+        <lido:rightsWorkWrap>
+            <lido:rightsWorkSet>
+                <lido:rightsType>
+                    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+                        #URI#
+                    </lido:conceptID>
+                    <lido:term>#URI display text (fr)#</lido:term>
+                    <lido:term xml:lang="de">#URI display text (de)#</lido:term>
+                    <lido:term xml:lang="en">#URI display text (en)#</lido:term>
+                </lido:rightsType>
+                <lido:creditLine>#Objets | Mention droits (fr)#</lido:creditLine>
+                <lido:creditLine xml:lang="de">#Objets | Mention droits (de)#</lido:creditLine>
+                <lido:creditLine xml:lang="en">#Objets | Mention droits (en)#</lido:creditLine>
+            </lido:rightsWorkSet>
+        </lido:rightsWorkWrap>
+        
+        <!-- Record Wrapper --> <!-- Copyright Metadata -->
+        <lido:recordWrap>
+            
+            <!-- Record ID -->
+            <lido:recordID
+                lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
+                lido:source="MuseumPlus MNHA">
+                #ID#
+            </lido:recordID>
+            
+            <!-- Record Type -->
+            <lido:recordType>
+                <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+                    http://terminology.lido-schema.org/recordType/item-level_record
+                </lido:conceptID>
+                <lido:term>Item-level record</lido:term>
+            </lido:recordType>
+            
+            <!-- Record Source -->
+            <lido:recordSource>
+                <lido:legalBodyName>
+                    <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
+                    <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
+                    <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
+                </lido:legalBodyName>
+            </lido:recordSource>
+            
+            <!-- Rights for Record [License] -->
+            <lido:recordRights>
+                <lido:rightsType>
+                    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+                        https://creativecommons.org/publicdomain/zero/1.0/
+                    </lido:conceptID>
+                    <lido:term>CC0</lido:term>
+                    <lido:term xml:lang="de">CC0</lido:term>
+                    <lido:term xml:lang="en">CC0</lido:term>
+                </lido:rightsType>
+            </lido:recordRights>
+            
+            <!-- Record Metadata Information Set [MuseumPlus record] --> <!-- Attention: format = ISO 8601 -->
+            <lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00471">
+                <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">
+                    #timestamp of record creation in MuseumPlus MNHA#
+                </lido:recordMetadataDate>
+                <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">
+                    #timestamp of last record edit in MuseumPlus MNHA#
+                </lido:recordMetadataDate>
+            </lido:recordInfoSet>
+            
+            <!-- Record Metadata Information Set [LIDO record] -->
+            <lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00470">
+                <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">
+                    #timestamp of LIDO record creation#
+                </lido:recordMetadataDate>
+            </lido:recordInfoSet>
+        </lido:recordWrap>
+        
+        <!-- Resource Wrapper --> <!-- Image -->
+        <lido:resourceWrap>
+            
+            <!-- Resource Set --> <!-- Repeated for each image -->
+            <lido:resourceSet lido:sortorder="1">
+                
+                <!-- Resource Identification Number -->
+                <lido:resourceID
+                    lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" 
+                    lido:source="MuseumPlus MNHA">
+                    #filename.jpg#
+                </lido:resourceID>
+                
+                <!-- Resource Description --> <!-- LANGUAGE? -->
+                <lido:resourceDescription>#Multimédia | Type (fr)#</lido:resourceDescription>
+                <lido:resourceDescription xml:lang="de">#Multimédia | Type (de)#</lido:resourceDescription>
+                <lido:resourceDescription xml:lang="en">#Multimédia | Type (en)#</lido:resourceDescription>
+                
+                <!-- Rights for Resource [Copyright Image]-->
+                
+                
+                <lido:rightsResource>
+                    <lido:rightsType>
+                        <lido:term>Copyright</lido:term>
+                        <lido:term xml:lang="de">Copyright</lido:term>
+                        <lido:term xml:lang="en">Copyright</lido:term>
+                    </lido:rightsType>
+                    <lido:rightsHolder>
+                        <lido:legalBodyName>
+                            <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
+                            <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
+                            <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
+                        </lido:legalBodyName>
+                        <lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
+                    </lido:rightsHolder>
+                    <lido:creditLine>#Multimédia | Auteur (fr)#</lido:creditLine>
+                    <lido:creditLine xml:lang="de">#Multimédia | Auteur (de)#</lido:creditLine>
+                    <lido:creditLine xml:lang="en">#Multimédia | Auteur (en)#</lido:creditLine>
+                </lido:rightsResource>
+                
+                <!-- Rights for Resource [License]-->
+                <lido:rightsResource>
+                    <lido:rightsType>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#URI#</lido:conceptID>
+                        <lido:term>#URI display text (fr)#</lido:term>
+                        <lido:term xml:lang="de">#URI display text (de)#</lido:term>
+                        <lido:term xml:lang="en">#URI display text (en)#</lido:term>   
+                    </lido:rightsType>  
+                </lido:rightsResource>
+            </lido:resourceSet>
+            
+            <!-- Resource Set -->
+            
+        </lido:resourceWrap>
+    </lido:administrativeMetadata>
+</lido:lido>

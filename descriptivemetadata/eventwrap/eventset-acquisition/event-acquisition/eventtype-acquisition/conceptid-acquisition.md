@@ -26,3 +26,11 @@ This attribute contains the following default value:
 
 * `http://terminology.lido-schema.org/identifier_type/uri`
 
+### Example
+
+```markup
+<lido:conceptID
+    lido:type="http://terminology.lido-schema.org/identifier_type/uri">http://terminology.lido-schema.org/eventType/acquisition
+</lido:conceptID>
+```
+

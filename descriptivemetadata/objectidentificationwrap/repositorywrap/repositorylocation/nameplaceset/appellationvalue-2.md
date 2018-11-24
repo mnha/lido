@@ -25,8 +25,6 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:appellationValue>#Location in museum (Text) (fr)#</lido:appellationValue>
-<lido:appellationValue xml:lang="de">#Location in museum (Text) (de)#</lido:appellationValue>
-<lido:appellationValue xml:lang="en">#Location in museum (Text) (en)#</lido:appellationValue
+
 ```
 

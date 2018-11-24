@@ -12,11 +12,7 @@ A name for the referred concept, used for indexing.
 
 #### MNHA
 
-This element is used twice for language variants of "Beginning of existence", see example.
-
-{% hint style="info" %}
-There is no preferred French term at the moment.
-{% endhint %}
+This element is used three times for language variants of "Beginning of existence", see example.
 
 ### Attributes
 
@@ -28,7 +24,9 @@ This attribute contains the following default value:
 
 ### Example
 
-```text
-
+```markup
+<lido:term>Début d'existence</lido:term>
+<lido:term xml:lang="de">Daseinsbeginn</lido:term>
+<lido:term xml:lang="en">Beginning of existence</lido:term>
 ```
 

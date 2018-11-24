@@ -19,6 +19,6 @@ _No attribute is currently defined for this element._
 ### Example
 
 ```markup
-<lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
+
 ```
 

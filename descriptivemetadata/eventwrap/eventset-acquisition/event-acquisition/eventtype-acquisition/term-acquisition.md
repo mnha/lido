@@ -24,3 +24,9 @@ This attribute contains the following default value:
 
 ### Example
 
+```markup
+ <lido:term>Acquisition</lido:term>
+ <lido:term xml:lang="de">Erwerbung</lido:term>
+ <lido:term xml:lang="en">Acquisition</lido:term>
+```
+

@@ -26,7 +26,7 @@ _No attribute is currently defined for this element._
 
 ### Example
 
-```text
-
+```markup
+<lido:latestDate>#Objets | Dates/Siècle | XXX (end)#</lido:latestDate>
 ```
 

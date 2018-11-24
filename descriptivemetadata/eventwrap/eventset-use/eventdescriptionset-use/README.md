@@ -18,7 +18,11 @@ _No attribute is currently defined for this element._
 
 ### Example
 
-```text
-
+```markup
+<lido:eventDescriptionSet>
+    <lido:descriptiveNoteValue>#Objets | Utilisation 1 (fr)#</lido:descriptiveNoteValue>
+    <lido:descriptiveNoteValue xml:lang="de">#Objets | Utilisation 1 (de)#</lido:descriptiveNoteValue>
+    <lido:descriptiveNoteValue xml:lang="en">#Objets | Utilisation 1 (en)#</lido:descriptiveNoteValue>
+</lido:eventDescriptionSet>
 ```
 
