@@ -22,3 +22,9 @@ This attribute contains the following default value:
 
 ### Example
 
+```markup
+<lido:descriptiveNoteValue>#Objets | Mention obl. (fr)#</lido:descriptiveNoteValue>
+<lido:descriptiveNoteValue xml:lang="de">#Objets | Mention obl. (de)#</lido:descriptiveNoteValue>
+<lido:descriptiveNoteValue xml:lang="en">#Objets | Mention obl. (en)#</lido:descriptiveNoteValue>
+```
+
