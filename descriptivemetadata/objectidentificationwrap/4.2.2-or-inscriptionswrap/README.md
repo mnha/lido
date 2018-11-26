@@ -4,6 +4,24 @@ description: Inscriptions and other Marks Wrapper
 
 # 4.2.2 \| inscriptionsWrap
 
+### Definition
+
+#### LIDO
+
+A wrapper for information about inscriptions and other marks.
+
+#### MNHA
+
+This element contains the following element:
+
+* `inscriptions`
+
+### Attributes
+
+_This element does not have attributes._
+
+### Example
+
 ```markup
 <lido:inscriptionsWrap>
     <lido:inscriptions>
