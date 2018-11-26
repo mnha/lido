@@ -11,6 +11,7 @@ A Wrapper for information that identifies the object.
 This element contains the following elements:
 
 * `titleWrap`
+* `inscriptionsWrap`
 * `repositoryWrap`
 * `objectDescriptionWrap`
 * `objectMeasurementsWrap`
