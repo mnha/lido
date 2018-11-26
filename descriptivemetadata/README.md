@@ -25,7 +25,7 @@ This element contains the following elements:
 * `objectClassificationWrap`
 * `objectIdentificationWrap`
 * `eventWrap`
-* `obkectRelationWrap`
+* `objectRelationWrap`
 
 ### Attributes
 
