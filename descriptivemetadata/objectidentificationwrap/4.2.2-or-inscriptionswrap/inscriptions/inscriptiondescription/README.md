@@ -1,4 +1,30 @@
+---
+description: Inscription Description
+---
+
 # inscriptionDescription
+
+### Definition
+
+#### LIDO
+
+Wrapper for a description of the inscription, including description identifier, descriptive note of the inscription and sources.
+
+#### MNHA
+
+This element contains the following element:
+
+* `descriptiveNoteValue`
+
+### Attributes
+
+**@type**
+
+This attribute contains the following default values:
+
+`type | location`
+
+### Example
 
 ```markup
 <lido:inscriptionDescription lido:type="type">
