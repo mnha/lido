@@ -14,8 +14,8 @@ The nature of the event associated with an object / work.
 
 This element contains the following elements:
 
-* conceptID \[Acquisition\]
-* term \[Acquisition\]
+* `conceptID` \[Acquisition\]
+* `term` \[Acquisition\]
 
 ### Attributes
 
@@ -31,6 +31,6 @@ _This element does not have attributes._
     <lido:term>Acquisition</lido:term>
     <lido:term xml:lang="de">Erwerbung</lido:term>
     <lido:term xml:lang="en">Acquisition</lido:term>
-</lido:eventType
+</lido:eventType>
 ```
 

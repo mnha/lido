@@ -14,12 +14,19 @@ Contains a date specification by providing a set of years as earliest and latest
 
 This element contains the following elements:
 
-* earliestDate
-* latestDate
+* `earliestDate`
+* `latestDate`
 
 ### Attributes
 
 _This element does not have attributes._
 
 ### Example
+
+```markup
+ <lido:date>
+     <lido:earliestDate>#Acquisition date ISO 8601#</lido:earliestDate>
+     <lido:latestDate>#Acquisition date ISO 8601#</lido:latestDate>
+ </lido:date>
+```
 

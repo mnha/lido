@@ -6,7 +6,11 @@ description: Object Identification Wrapper
 
 ### Definition
 
+#### LIDO
+
 A Wrapper for information that identifies the object.
+
+#### MNHA
 
 This element contains the following elements:
 

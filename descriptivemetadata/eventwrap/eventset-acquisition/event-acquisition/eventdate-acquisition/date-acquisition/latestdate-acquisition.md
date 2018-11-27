@@ -26,3 +26,7 @@ _No attribute is currently defined for this element._
 
 ### Example
 
+```markup
+<lido:latestDate>#Acquisition date ISO 8601#</lido:latestDate>
+```
+

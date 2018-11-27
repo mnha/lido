@@ -16,7 +16,7 @@ For multiple events repeat the element.
 
 This element contains the following element:
 
-* event \[Acquisition\]
+* `event` \[Acquisition\]
 
 ### Attributes
 

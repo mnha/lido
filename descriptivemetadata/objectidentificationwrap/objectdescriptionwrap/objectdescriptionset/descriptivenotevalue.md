@@ -6,6 +6,8 @@ description: Description/Descriptive Note
 
 ### Definition
 
+#### LIDO
+
 Usually a relatively brief essay-like text that describes the entity.
 
 Repeat this element only for language variants.
@@ -25,7 +27,9 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-
+ <lido:descriptiveNoteValue>#Objets | Description (fr)#</lido:descriptiveNoteValue>
+ <lido:descriptiveNoteValue xml:lang="de">#Objets | Description (de)#</lido:descriptiveNoteValue>
+ <lido:descriptiveNoteValue xml:lang="en">#Objets | Description (en)#</lido:descriptiveNoteValue>
 ```
 
 

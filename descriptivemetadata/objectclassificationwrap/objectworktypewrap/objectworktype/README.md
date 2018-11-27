@@ -16,6 +16,10 @@ Preferably taken from a published controlled vocabulary. For a collection, inclu
 
 This element is repeated for each domain.
 
+This element contains the following element:
+
+* `term`
+
 ### Attributes
 
 _No attribute is currently defined for this element._

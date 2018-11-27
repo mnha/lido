@@ -16,8 +16,8 @@ All information related to the creation of an object: creator, cutlural context,
 
 This element contains the following elements:
 
-* eventType \[Use\]
-* eventDescriptionSet \[Use\]
+* `eventType` \[Use\]
+* `eventDescriptionSet` \[Use\]
 
 ### Attributes
 

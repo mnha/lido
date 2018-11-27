@@ -10,7 +10,7 @@ description: Description/Descriptive Note
 
 Usually a relatively brief essay-like text that describes the entity.
 
-#### MNHA
+### MuseumPlus
 
 Inscriptions \| Type
 

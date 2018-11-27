@@ -12,6 +12,10 @@ Usually a relatively brief essay-like text that describes the entity.
 
 Repeat this element only for language variants.
 
+### MuseumPlus
+
+Utilisation
+
 ### Attributes
 
 #### @xml:lang

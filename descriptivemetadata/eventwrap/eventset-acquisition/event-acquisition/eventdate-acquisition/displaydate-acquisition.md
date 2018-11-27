@@ -18,7 +18,7 @@ If "Provenance / Valeurs \|  Date d'acq." is empty the content of this elements 
 
 ### MuseumPlus
 
-Provenance / Valeurs \|  Date d'acq.
+Date d'acq.
 
 ### Attributes
 
@@ -29,4 +29,8 @@ This attribute contains the following default value:
 `de` \| `en`
 
 ### Example
+
+```markup
+<lido:displayDate>#Objets | Date d'acq.#</lido:displayDate>
+```
 

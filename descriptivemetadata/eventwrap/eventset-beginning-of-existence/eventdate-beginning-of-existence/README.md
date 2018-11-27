@@ -14,8 +14,10 @@ This element contains the following elements:
 
 #### MNHA
 
-* displayDate
-* date
+This element contains the following elements:
+
+* `displayDate`
+* `date`
 
 ### Attributes
 

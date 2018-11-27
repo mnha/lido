@@ -12,6 +12,12 @@ Wrapper for a description of the event, including description identifer, descrip
 
 If there is more than one descriptive note, repeat this element.
 
+MNHA
+
+This element contains the following element:
+
+* `descriptiveNoteValue`
+
 ### Attributes
 
 _No attribute is currently defined for this element._

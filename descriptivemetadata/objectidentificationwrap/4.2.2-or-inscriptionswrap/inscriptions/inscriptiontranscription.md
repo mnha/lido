@@ -10,7 +10,7 @@ description: Inscription Transcription
 
 Transcription of the inscription.
 
-#### MNHA
+### MuseumPlus
 
 Inscription\(s\) \| Transcription
 

@@ -6,7 +6,11 @@ description: Classification Wrapper
 
 ### Definition
 
+#### LIDO
+
 A wrapper for classification information.
+
+#### MNHA
 
 This element contains the following element:
 

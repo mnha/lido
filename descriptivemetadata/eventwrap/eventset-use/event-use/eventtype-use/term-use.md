@@ -12,7 +12,11 @@ A name for the referred concept, used for indexing.
 
 #### MNHA
 
-This element is repeated three times for language variants of "Use", see example.
+This element contains the following default values:
+
+* `Utilisation`
+* `Gebrauch`
+* `Use`
 
 ### Attributes
 

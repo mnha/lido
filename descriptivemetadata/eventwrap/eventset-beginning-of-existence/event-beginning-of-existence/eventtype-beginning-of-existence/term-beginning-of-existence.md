@@ -12,7 +12,11 @@ A name for the referred concept, used for indexing.
 
 #### MNHA
 
-This element is used three times for language variants of "Beginning of existence", see example.
+This element contains the following default values:
+
+* `Début d'existence`
+* `Daseinsbeginn`
+* `Beginning of existence`
 
 ### Attributes
 

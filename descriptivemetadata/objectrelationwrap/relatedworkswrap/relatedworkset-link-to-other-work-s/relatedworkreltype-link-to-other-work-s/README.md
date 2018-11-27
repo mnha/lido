@@ -18,7 +18,7 @@ For implementation of the data, note that relationships are conceptually recipro
 
 This element contains the following elements:
 
-* term \[Link to other work\(s\)\]
+* `term` \[Link to other work\(s\)\]
 
 ### Attributes
 
@@ -26,7 +26,11 @@ _This element does not have attributes._
 
 ### Example
 
-```text
-
+```markup
+<lido:relatedWorkRelType>
+    <lido:term>#Objets | Réf. obj-obj. | Type (fr) 1#</lido:term>
+    <lido:term xml:lang="de">#Objets | Réf. obj-obj. | Type (de) 1#</lido:term>
+    <lido:term xml:lang="en">#Objets | Réf. obj-obj. | Type (en) 1#</lido:term>
+</lido:relatedWorkRelType>
 ```
 

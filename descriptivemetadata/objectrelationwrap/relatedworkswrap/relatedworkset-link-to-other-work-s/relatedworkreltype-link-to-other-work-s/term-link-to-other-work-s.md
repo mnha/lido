@@ -10,13 +10,9 @@ description: Term / Label
 
 A name for the referred concept, used for indexing.
 
-#### MNHA
-
-This element is repeated three times for language variants of "Acquisition", see example.
-
 ### MuseumPlus
 
-Références \|  Réf. obj.-obj. \| Type
+Réf. obj.-obj. \| Type
 
 ### Attributes
 
@@ -27,4 +23,10 @@ This attribute contains the following default value:
 `de` \| `en`
 
 ### Example
+
+```markup
+ <lido:term>#Objets | Réf. obj-obj. | Type (fr) 1#</lido:term>
+ <lido:term xml:lang="de">#Objets | Réf. obj-obj. | Type (de) 1#</lido:term>
+ <lido:term xml:lang="en">#Objets | Réf. obj-obj. | Type (en) 1#</lido:term>
+```
 

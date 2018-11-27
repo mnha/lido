@@ -6,6 +6,8 @@ description: Term / Label
 
 ### Definition
 
+#### LIDO
+
 A name for the referred concept, used for indexing.
 
 This element is repeated for each language variant \(FR \| DE \| EN\).
@@ -14,10 +16,10 @@ The content of this element depends on the type attribute of the parent element 
 
 ### MuseumPlus
 
-* Objets \| Collection
-* Objets \| Dénomination
-* Objets \| Iconographie
-* Objets \| Époque / Mouv.
+* Collection
+* Dénomination
+* Iconographie
+* Époque / Mouv.
 
 ### Attributes
 

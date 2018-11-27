@@ -12,7 +12,7 @@ A transcription or description of any distinguishing or identifying physical let
 
 #### MNHA
 
-This element contains teh following elements:
+This element contains the following elements:
 
 * `inscriptionTranscription`
 * `inscriptionDescription`

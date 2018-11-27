@@ -14,6 +14,12 @@ Mandatory. If there is no specific title, provide an object name in the appellat
 
 For objects from natural, technical, cultural history e.g. the object name given here and the object type, recorded in the object / work type element are often identical.
 
+#### MNHA
+
+This element contains the following element:
+
+* `appellationValue`
+
 ### Attributes
 
 No attribute is defined for the main title of an object. All other titles have the following attribute:

@@ -16,10 +16,10 @@ All information related to the creation of an object: creator, cutlural context,
 
 This element contains the following elements:
 
-* eventType \[Acquisition\]
-* eventDate \[Acquisition\]
-* eventMethod \[Acquisition\]
-* eventDescriptionSet \[Acquisition\]
+* `eventType` \[Acquisition\]
+* `eventDate` \[Acquisition\]
+* `eventMethod` \[Acquisition\]
+* `eventDescriptionSet` \[Acquisition\]
 
 If an event element of the type “Acquisition” is used, one of the subelements eventActor, eventMethod or eventDescriptionSet is mandatory.
 

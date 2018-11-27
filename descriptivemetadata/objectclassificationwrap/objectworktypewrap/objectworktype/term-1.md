@@ -14,7 +14,7 @@ A name for the referred concept, used for indexing.
 
 This element is repeated for each language variant \(FR \| DE \| EN\).
 
-### MusemPlus
+### MuseumPlus
 
 Domaine\(s\)
 

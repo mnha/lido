@@ -14,8 +14,8 @@ The nature of the event associated with an object / work.
 
 This element contains the following elements:
 
-* conceptID \[Use\]
-* term \[Use\]
+* `conceptID` \[Use\]
+* `term` \[Use\]
 
 ### Attributes
 

@@ -14,11 +14,15 @@ General format: YYYY\[-MM\[-DD\]\] Format is according to ISO 8601. This may inc
 
 ### MuseumPlus
 
-Provenance / Valeurs \|  Date d'acq.
+Date d'acq.
 
 ### Attributes
 
 _No attribute is currently defined for this element._
 
 ### Example
+
+```markup
+<lido:earliestDate>#Acquisition date ISO 8601#</lido:earliestDate>
+```
 
