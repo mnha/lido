@@ -2,7 +2,7 @@
 description: Legal Body Name
 ---
 
-# legalBodyName \[Copyright\]
+# legalBodyName \[Copyright Image\]
 
 ### Description
 
@@ -14,7 +14,7 @@ Appellation of the institution or person.
 
 This element contains the following element:
 
-* appellationValue \[Copyright\]
+* `appellationValue` \[Copyright Image\]
 
 ### Attributes
 
@@ -24,7 +24,9 @@ _No attribute is currently defined for this element._
 
 ```markup
 <lido:legalBodyName>
-    <lido:appellationValue>#Name of the photographer#</lido:appellationValue>
+    <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
+    <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
+    <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
 </lido:legalBodyName>
 ```
 

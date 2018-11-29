@@ -2,7 +2,7 @@
 description: Rights Type
 ---
 
-# rightsType \[Droit d'exploitation\]
+# rightsType \[License\]
 
 ### Description
 
@@ -16,7 +16,8 @@ For example: copyright, publication right, data protection right, trademark. Pre
 
 This element contains the following default value:
 
-* term \[Droit d'exploitation\]
+* `conceptID` \[License\]
+* `term` \[License\]
 
 ### Attributes
 
@@ -26,9 +27,10 @@ _No attribute is currently defined for this element._
 
 ```markup
 <lido:rightsType>
-    <lido:term>Droit d'exploitation</lido:term>
-    <lido:term xml:lang="de">Verwertungsrecht</lido:term>
-    <lido:term xml:lang="en">Exploitation right</lido:term>
+    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#URI#</lido:conceptID>
+    <lido:term>#URI display text (fr)#</lido:term>
+    <lido:term xml:lang="de">#URI display text (de)#</lido:term>
+    <lido:term xml:lang="en">#URI display text (en)#</lido:term>
 </lido:rightsType>
 ```
 

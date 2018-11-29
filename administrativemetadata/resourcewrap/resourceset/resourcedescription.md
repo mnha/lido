@@ -24,11 +24,11 @@ Multimédia \| Type
 
 _No attribute is currently defined for this element._
 
-#### Example
+### Example
 
 ```markup
-<lido:resourceDescription>
-    #Multimédia | Type#
-</lido:resourceDescription>
+<lido:resourceDescription>#Multimédia | Type (fr)#</lido:resourceDescription>
+<lido:resourceDescription xml:lang="de">#Multimédia | Type (de)#</lido:resourceDescription>
+<lido:resourceDescription xml:lang="en">#Multimédia | Type (en)#</lido:resourceDescription>
 ```
 

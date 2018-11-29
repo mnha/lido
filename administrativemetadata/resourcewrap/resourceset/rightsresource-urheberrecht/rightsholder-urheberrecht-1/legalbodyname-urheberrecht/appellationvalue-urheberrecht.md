@@ -2,7 +2,7 @@
 description: Appellation Value
 ---
 
-# appellationValue \[Copyright\]
+# appellationValue \[Copyright Image\]
 
 ### Description
 
@@ -12,9 +12,13 @@ Appellations, e.g. titles, identifying phrases, or names given to an item, but a
 
 Repeat this element only for language variants.
 
-### MuseumPlus
+#### MNHA
 
-Multimédia \| Auteur
+This element contains the following default values:
+
+* `Musée national d'histoire et d'art Luxembourg`
+* `Nationalmuseum für Geschichte und Kunst Luxemburg`
+* `National Museum of history and Art Luxembourg`
 
 ### Attributes
 
@@ -23,6 +27,8 @@ _No attribute is currently defined for this element._
 #### Example
 
 ```markup
-<lido:appellationValue>#Multimédia | Auteur#</lido:appellationValue>
+<lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
+<lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
+<lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
 ```
 

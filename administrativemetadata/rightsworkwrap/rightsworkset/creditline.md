@@ -18,10 +18,10 @@ This element contains a provenance description for display as requested by the o
 
 ### MuseumPlus
 
-Objets \| Provenance/Valeurs \| Mention obl.
+Objets \| Mention droits.
 
 {% hint style="info" %}
-The field "Objets \| Provenance/Valeurs \| Mention obl." is currently not a multilingual field.
+The field "Objets \|  Mention droits." is currently not a multilingual field.
 {% endhint %}
 
 ### Attributes
@@ -35,8 +35,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:creditLine>#Objets | Provenance/Valeurs | Mention obl. (fr)#</lido:creditLine>
-<lido:creditLine xml:lang="de">#Objets | Provenance/Valeurs | Mention obl. (de)#</lido:creditLine>
-<lido:creditLine xml:lang="en">#Objets | Provenance/Valeurs | Mention obl. (en)#</lido:creditLine>
+<lido:creditLine>#Objets | Mention droits (fr)#</lido:creditLine>
+<lido:creditLine xml:lang="de">#Objets | Mention droits (de)#</lido:creditLine>
+<lido:creditLine xml:lang="en">#Objets | Mention droits (en)#</lido:creditLine>
 ```
 

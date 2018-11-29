@@ -2,7 +2,7 @@
 description: Rights Holder
 ---
 
-# rightsHolder \[Copyright\]
+# rightsHolder \[Copyright Image\]
 
 ### Description
 
@@ -14,7 +14,8 @@ The holder of the right.
 
 This element contains the following element:
 
-* legalBodyName \[Copyright\]
+* `legalBodyName` \[Copyright Image\]
+* `legalBodyWeblink` \[Copyright Image\]
 
 ### Attributes
 
@@ -25,8 +26,11 @@ _No attribute is currently defined for this element._
 ```markup
 <lido:rightsHolder>   
     <lido:legalBodyName>
-        <lido:appellationValue>#Name of the photographer#</lido:appellationValue>
+        <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
+        <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
+        <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
     </lido:legalBodyName>
+    <lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
 </lido:rightsHolder>
 ```
 

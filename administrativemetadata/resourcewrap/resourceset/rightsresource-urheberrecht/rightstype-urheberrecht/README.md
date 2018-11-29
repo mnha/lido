@@ -2,7 +2,7 @@
 description: Rights Type
 ---
 
-# rightsType \[Copyright\]
+# rightsType \[Copyright Image\]
 
 ### Description
 
@@ -14,9 +14,9 @@ For example: copyright, publication right, data protection right, trademark. Pre
 
 #### MNHA
 
-This element contains the following default value:
+This element contains the following element:
 
-* term \[Copyright\]
+* `term` \[Copyright Image\]
 
 ### Attributes
 
@@ -26,8 +26,8 @@ _No attribute is currently defined for this element._
 
 ```markup
 <lido:rightsType>
-    <lido:term>Droit d'auteur</lido:term>
-    <lido:term xml:lang="de">Urheberrecht</lido:term>
+    <lido:term>Copyright</lido:term>
+    <lido:term xml:lang="de">Copyright</lido:term>
     <lido:term xml:lang="en">Copyright</lido:term>
 </lido:rightsType>
 ```

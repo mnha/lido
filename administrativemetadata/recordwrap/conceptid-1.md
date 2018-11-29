@@ -10,9 +10,9 @@ description: Record ID
 
 A unique record identification in the contributor's \(local\) system.
 
-#### MuseumPlus
+### MuseumPlus
 
-xxx
+ID
 
 ### Attributes
 
@@ -34,7 +34,7 @@ This attribute contains the following default value:
 <lido:recordID
     lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
     lido:source="MuseumPlus MNHA">
-    #Unique Identifier#
+    #ID#
 </lido:recordID>
 ```
 

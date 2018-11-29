@@ -26,13 +26,10 @@ _This element does not have attributes._
 
 ```markup
 <lido:recordType>
-    <lido:conceptID
-        lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
         http://terminology.lido-schema.org/recordType/item-level_record
     </lido:conceptID>
-    <lido:term>
-        Item-level record
-    </lido:term>
+    <lido:term>Item-level record</lido:term>
 </lido:recordType>
 ```
 

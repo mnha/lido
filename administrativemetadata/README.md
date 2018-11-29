@@ -4,7 +4,9 @@ description: Administrative Metadata
 
 # 5 \| administrativeMetadata
 
-### Definition
+### Description
+
+#### LIDO
 
 Holds the administrative metadata for an object / work record.
 
@@ -14,11 +16,13 @@ For fully multi-lingual resources, repeat this element once for each language re
 
 If only a few data fields \(e.g. title, creditline\) are provided in more than one language, the respective text elements may be repeated specifying the lang attribute on the text level.
 
+#### MNHA
+
 This element contains the following elements:
 
-* rightsWorkWrap
-* recordWrap
-* recordWrap
+* `rightsWorkWrap`
+* `recordWrap`
+* `resourceWrap`
 
 ### Attributes
 

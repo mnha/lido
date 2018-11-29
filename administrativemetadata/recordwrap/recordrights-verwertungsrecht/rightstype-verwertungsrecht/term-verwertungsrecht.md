@@ -2,7 +2,7 @@
 description: Term / Label
 ---
 
-# term \[Droit d'exploitation\]
+# term \[License\]
 
 ### Description
 
@@ -10,13 +10,9 @@ description: Term / Label
 
 A name for the referred concept, used for indexing.
 
-#### MNHA
+### MuseumPlus
 
-This element contains one of the following values:
-
-* Droit d'exploitation
-* Verwertungsrecht
-* Exploitation right
+The field does not exist yet.
 
 ### Attributes
 
@@ -29,8 +25,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:term>Droit d'exploitation</lido:term>
-<lido:term xml:lang="de">Verwertungsrecht</lido:term>
-<lido:term xml:lang="en">Exploitation right</lido:term>
+<lido:term>CC0</lido:term>
+<lido:term xml:lang="de">CC0</lido:term>
+<lido:term xml:lang="en">CC0</lido:term>
 ```
 

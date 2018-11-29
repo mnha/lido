@@ -40,7 +40,7 @@ This attribute contains the following value:
 <lido:resourceID
     lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier"
     lido:source="MuseumPlus MNHA">
-    #local filename#
+    #filename.jpg#
 </lido:resourceID>
 ```
 

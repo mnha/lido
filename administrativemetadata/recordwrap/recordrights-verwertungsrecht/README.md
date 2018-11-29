@@ -2,7 +2,7 @@
 description: Rights for Record
 ---
 
-# 5.2.4 \| recordRights \[Droit d'exploitation\]
+# 5.2.4 \| recordRights \[License\]
 
 ### Description
 
@@ -14,8 +14,7 @@ Information about rights regarding the content provided in this LIDO record.
 
 This element contains the following elements:
 
-* rightsType \[Droit d'exploitation\]
-* rightsHolder \[Droit d'exploitation\]
+* `rightsType` \[License\]
 
 ### Attributes
 
@@ -26,18 +25,13 @@ _No attribute is currently defined for this element._
 ```markup
 <lido:recordRights>
     <lido:rightsType>
-        <lido:term>Droit d'exploitation</lido:term>
-        <lido:term xml:lang="de">Verwertungsrecht</lido:term>
-        <lido:term xml:lang="en">Exploitation right</lido:term>
+        <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+            https://creativecommons.org/publicdomain/zero/1.0/
+        </lido:conceptID>
+        <lido:term>CC0</lido:term>
+        <lido:term xml:lang="de">CC0</lido:term>
+        <lido:term xml:lang="en">CC0</lido:term>
     </lido:rightsType>
-    <lido:rightsHolder>
-        <lido:legalBodyName>
-            <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
-            <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
-            <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>  
-        </lido:legalBodyName>
-        <lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
-    </lido:rightsHolder>
 </lido:recordRights>
 ```
 

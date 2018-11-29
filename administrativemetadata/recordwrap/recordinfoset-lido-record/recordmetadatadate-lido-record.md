@@ -1,6 +1,8 @@
-# recordMetadataDate \[LIDO record\]
+---
+description: Record Metadata Date
+---
 
-### Description
+# recordMetadataDate \[LIDO record\]
 
 ### Description
 
@@ -25,6 +27,6 @@ Example
 ```markup
 <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">
     #timestamp of LIDO record creation#
-Record Metadata Date</lido:recordMetadataDate>
+</lido:recordMetadataDate>
 ```
 

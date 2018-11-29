@@ -17,7 +17,6 @@ Preferably taken from and linking to a published controlled vocabulary.
 This element contains one of the following values:
 
 * `http://terminology.lido-schema.org/recordType/item-level_record`
-* `http://terminology.lido-schema.org/recordType/group-level_record`
 
 ### Attributes
 

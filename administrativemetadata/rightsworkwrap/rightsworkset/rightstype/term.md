@@ -2,7 +2,7 @@
 description: Term / Label
 ---
 
-# term \[License\]
+# term
 
 ### Description
 
@@ -16,9 +16,9 @@ The field does not exist yet.
 
 ### Attributes
 
-#### @xml:lang
+**@xml:lang**
 
-This attribute contains the following default value:
+This attribute contains the following default values:
 
 `de` \| `en`
 

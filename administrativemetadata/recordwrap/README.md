@@ -16,13 +16,12 @@ Note that this section does not refer to any object or resource information, but
 
 This element contains the following elements:
 
-* recordID
-* recordType
-* recordSource
-* recordRights \(“Verwertungsrecht”\)
-* recordRights \(“License”\) 
-* recordInfoSet \(“source record”\)
-* recordInfoSet \(“lido record”\)
+* `recordID`
+* `recordType`
+* `recordSource`
+* `recordRights` \[License\]
+* `recordInfoSet` \[MuseumPlus record\]
+* `recordInfoSet` \[LIDO record\]
 
 ### Attributes
 
@@ -41,9 +40,7 @@ _This element does not have attributes._
         <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
             http://terminology.lido-schema.org/recordType/item-level_record
         </lido:conceptID>
-        <lido:term>
-            Item-level record
-        </lido:term>
+        <lido:term>Item-level record</lido:term>
     </lido:recordType>
     <lido:recordSource>
         <lido:legalBodyName>
@@ -54,31 +51,26 @@ _This element does not have attributes._
     </lido:recordSource>
     <lido:recordRights>
         <lido:rightsType>
-            <lido:term>TODO</lido:term>
-        </lido:rightsType>
-        <lido:rightsHolder>
-            <lido:legalBodyName>
-                <lido:appellationValue>Musée national d'histoire et d'art Luxembourg</lido:appellationValue>
-                <lido:appellationValue xml:lang="de">Nationalmuseum für Geschichte und Kunst Luxemburg</lido:appellationValue>
-                <lido:appellationValue xml:lang="en">National Museum of History and Art Luxembourg</lido:appellationValue>
-            </lido:legalBodyName>
-            <lido:legalBodyWeblink>http://www.mnha.lu</lido:legalBodyWeblink>
-        </lido:rightsHolder>
-    </lido:recordRights>
-    <lido:recordRights>
-        <lido:rightsType>
-            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">#Licence URI#</lido:conceptID>
-            <lido:term xml:lang="en">#License Name#</lido:term>
-            <lido:term>#License Name (French)#</lido:term>
-            <lido:term xml:lang="de">#License Name (German)#</lido:term>
+            <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/uri">
+                https://creativecommons.org/publicdomain/zero/1.0/
+            </lido:conceptID>
+            <lido:term>CC0</lido:term>
+            <lido:term xml:lang="de">CC0</lido:term>
+            <lido:term xml:lang="en">CC0</lido:term>
         </lido:rightsType>
     </lido:recordRights>
     <lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00471">
-        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">#timestamp of record creation in MuseumPlus MNHA#</lido:recordMetadataDate>
-        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">#timestamp of last record edit in MuseumPlus MNHA#</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">
+            #timestamp of record creation in MuseumPlus MNHA#
+        </lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/modified">
+            #timestamp of last record edit in MuseumPlus MNHA#
+        </lido:recordMetadataDate>
     </lido:recordInfoSet>
     <lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00470">
-        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">#timestamp of LIDO record creation#</lido:recordMetadataDate>
+        <lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/recordMetadataDate_type/created">
+            #timestamp of LIDO record creation#
+        </lido:recordMetadataDate>
     </lido:recordInfoSet>
 </lido:recordWrap>
 ```

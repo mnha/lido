@@ -27,7 +27,7 @@ xxx
 This attribute contains one of the following values:
 
 * `http://terminology.lido-schema.org/recordMetadataDate_type/created`
-* `http://terminology.lido-schema.org/recordMetadataDate_type/modiefied`
+* `http://terminology.lido-schema.org/recordMetadataDate_type/modified`
 
 ### Example
 

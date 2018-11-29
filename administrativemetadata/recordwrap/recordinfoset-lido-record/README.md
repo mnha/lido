@@ -2,7 +2,7 @@
 description: Record Metadata Information Set
 ---
 
-# recordInfoSet \[LIDO record\]
+# 5.2.6 \| recordInfoSet \[LIDO record\]
 
 ### Description
 
@@ -13,6 +13,10 @@ Wrapper for metadata information about this record.
 #### MNHA
 
 This element contains information about the lido record generated during the export out of MuseumPlus \(MNHA\).
+
+This element contains the following element:
+
+* recordMetadataDate
 
 ### Attributes
 

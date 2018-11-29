@@ -2,7 +2,7 @@
 description: Credit Line
 ---
 
-# creditLine \[Copyright\]
+# creditLine \[Copyright Image\]
 
 ### Description
 
@@ -18,7 +18,7 @@ This element contains a provenance description for display as requested by the o
 
 ### MuseumPlus
 
-Multimédia \| Copyright
+Multimédia \| Auteur
 
 ### Attributes
 
@@ -27,7 +27,9 @@ _No attribute is currently defined for this element._
 ### Example
 
 ```markup
-<lido:creditLine>#Multimédia | Copyright#</lido:creditLine>
+<lido:creditLine>#Multimédia | Auteur (fr)#</lido:creditLine>
+<lido:creditLine xml:lang="de">#Multimédia | Auteur (de)#</lido:creditLine>
+<lido:creditLine xml:lang="en">#Multimédia | Auteur (en)#</lido:creditLine>
 ```
 
 
