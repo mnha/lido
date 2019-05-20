@@ -38,6 +38,9 @@ _This element does not have attributes._
         </lido:objectWorkType>
     </lido:objectWorkTypeWrap>
     <lido:classificationWrap>
+        <lido:classification lido:type="restriction">
+            <lido:conceptID lido:type="http://terminoloy.lido-schema.org/identifier_type/local_identifier">RESTRICTED</lido:conceptID>
+        </lido:classification>
         <lido:classification lido:type="collection">
             <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
                 #Vocabulaire | Nom interne# <!-- format: collection#subcollection -->

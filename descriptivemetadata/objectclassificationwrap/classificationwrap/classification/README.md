@@ -24,29 +24,32 @@ This element contains the following element:
 
 This attribute contains the following values to specify the content of the subelement term:
 
+`RESTRICTED`
+
+The content of the sub-element term is hardcoded in the xml file
+
 `collection`
 
-The content of the subelement termis from the MuseumPlus field "Objets \| Collection"
-
-{% hint style="info" %}
-The field does not exist yet!
-{% endhint %}
+The content of the sub-element term is from the MuseumPlus field "Objets \| Collection"
 
 `designation`
 
-The content of the subelement termis from the MuseumPlus field "Objets \| Dénomination"
+The content of the sub-element term is from the MuseumPlus field "Objets \| Dénomination"
 
 `iconography`
 
-The content of the subelement termis from the MuseumPlus field "Objets \| Iconographie"
+The content of the sub-element term is from the MuseumPlus field "Objets \| Iconographie"
 
 `period_style_movement`
 
-The content of the subelement termis from the MuseumPlus field "Objets \| Époque \| Mouv."
+The content of the sub-element term is from the MuseumPlus field "Objets \| Époque \| Mouv."
 
 ### Example
 
 ```markup
+<lido:classification lido:type="restriction">
+    <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">RESTRICTED</lido:conceptID>
+</lido:classification>
 <lido:classification lido:type="collection">
     <lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
         #Vocabulaire | Nom interne# <!-- format: collection#subcollection -->
