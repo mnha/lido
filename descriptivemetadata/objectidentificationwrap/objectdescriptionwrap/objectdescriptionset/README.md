@@ -22,13 +22,17 @@ This element contains teh following element:
 
 ### Attributes
 
-_No attribute is currently defined for this element._
+**@type**
+
+This attribute contains the following default values:
+
+`short` \| `long`
 
 ### Example
 
 ```markup
-<lido:objectDescriptionSet>
-    <lido:descriptiveNoteValue>#Objets | Description (fr)#</lido:descriptiveNoteValue>
+<lido:objectDescriptionSet lido:type="short">
+    <lido:descriptiveNoteValue>#Objets | texte [type = Descr. courte] (fr)#</lido:descriptiveNoteValue>
     <lido:descriptiveNoteValue xml:lang="de">#Objets | Description (de)#</lido:descriptiveNoteValue>
     <lido:descriptiveNoteValue xml:lang="en">#Objets | Description (en)#</lido:descriptiveNoteValue>
 </lido:objectDescriptionSet>

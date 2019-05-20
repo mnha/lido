@@ -16,6 +16,7 @@ The category belongs to a systematic scheme \(classification\) which groups obje
 
 This element contains the following element:
 
+* `conceptID`
 * `term`
 
 ### Attributes
