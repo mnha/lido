@@ -25,7 +25,7 @@ This element contains the following elements:
 
 This attribute contains the following values to specify the content of the subelement term:
 
-`RESTRICTED`
+`restriction`
 
 The content of the sub-element term is hardcoded in the xml file
 
