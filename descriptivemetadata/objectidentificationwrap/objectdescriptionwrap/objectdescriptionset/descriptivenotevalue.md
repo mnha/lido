@@ -27,9 +27,9 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
- <lido:descriptiveNoteValue>#Objets | Textes [type = Descr. courte] (fr)#</lido:descriptiveNoteValue>
- <lido:descriptiveNoteValue xml:lang="de">#Objets | Textes [type = Descr. courte] (de)#</lido:descriptiveNoteValue>
- <lido:descriptiveNoteValue xml:lang="en">#Objets | Textes [type = Descr. courte] (en)#</lido:descriptiveNoteValue>
+ <lido:descriptiveNoteValue>#Objets | Description (fr)#</lido:descriptiveNoteValue>
+ <lido:descriptiveNoteValue xml:lang="de">#Objets | Description (de)#</lido:descriptiveNoteValue>
+ <lido:descriptiveNoteValue xml:lang="en">#Objets | Description (en)#</lido:descriptiveNoteValue>
 ```
 
 

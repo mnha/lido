@@ -14,7 +14,7 @@ The category belongs to a systematic scheme \(classification\) which groups obje
 
 #### MNHA
 
-This element contains the following element:
+This element contains the following elements:
 
 * `conceptID`
 * `term`

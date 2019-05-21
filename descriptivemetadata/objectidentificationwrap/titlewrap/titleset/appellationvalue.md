@@ -29,8 +29,8 @@ This attribute contains the following default value:
 ### Example
 
 ```markup
-<lido:appellationValue>#Title 1 (fr)#</lido:appellationValue>
-<lido:appellationValue xml:lang="de">#Title 1 (de)#</lido:appellationValue>
-<lido:appellationValue xml:lang="en">#Title 1 (en)#</lido:appellationValue>
+<lido:appellationValue>#Title (fr)#</lido:appellationValue>
+<lido:appellationValue xml:lang="de">#Title (de)#</lido:appellationValue>
+<lido:appellationValue xml:lang="en">#Title (en)#</lido:appellationValue>
 ```
 

@@ -4,35 +4,23 @@ description: Concept Identifier
 
 # conceptID
 
-### Definition
+Definition
 
-#### LIDO
+LIDO
 
-A unique identifier for the concept.
+A unique identifier for the concept
 
-#### MNHA
+MuseumPlus
 
-This element contains the following default value for the `classification` element of the type "`restriction`":
+* Nom interne \| Vocabulaire Collection
 
-`RESTRICTED`
+Attributes
 
-#### MuseumPlus
+@type
 
-* Internal name from the Vocabulary for Collection
+This attribute contains the following default value:
 
-### Attributes
 
-**@type**
 
-This attribute contains the following default values:
 
-`http://terminology.lido-schema.org/identifier_type/local_identifier`
-
-### Example
-
-```markup
-<lido:conceptID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier">
-    RESTRICTED
-</lido:conceptID>
-```
 
