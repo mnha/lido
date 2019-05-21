@@ -91,6 +91,7 @@
             * [term \[Acquisition\]](descriptivemetadata/eventwrap/eventset-acquisition/event-acquisition/eventdate-acquisition/eventmethod-acquisition/term-acquisition.md)
           * [eventDescriptionSet \[Acquisition\]](descriptivemetadata/eventwrap/eventset-acquisition/event-acquisition/eventdate-acquisition/eventdescriptionset-acquisition/README.md)
             * [descriptiveNoteValue \[Acquisition\]](descriptivemetadata/eventwrap/eventset-acquisition/event-acquisition/eventdate-acquisition/eventdescriptionset-acquisition/descriptivenotevalue-1.md)
+    * [eventSet \[Excavation\]](descriptivemetadata/eventwrap/eventset-excavation.md)
   * [4.4 \| objectRelationWrap](descriptivemetadata/objectrelationwrap/README.md)
     * [subjectWrap](descriptivemetadata/objectrelationwrap/subjectwrap/README.md)
       * [subjectSet](descriptivemetadata/objectrelationwrap/subjectwrap/subjectset/README.md)
