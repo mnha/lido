@@ -28,12 +28,18 @@ This attribute contains the following default value:
 
 `de` \| `en`
 
+**@label**
+
+This attribute contains the following default values:
+
+`date` \| `century`
+
 ### Example
 
 ```markup
-<lido:displayDate>#Objets | Dates/Siècle | Affichage (fr)#</lido:displayDate>
-<lido:displayDate xml:lang="de">#Objets | Dates/Siècle | Affichage (de)#</lido:displayDate>
-<lido:displayDate xml:lang="en">#Objets | Dates/Siècle | Affichage (en)#</lido:displayDate>
+<lido:displayDate lido:label="date">#Objets | Dates/Siècle | Affichage [only date] (fr)#</lido:displayDate>
+<lido:displayDate xml:lang="de" lido:label="date">#Objets | Dates/Siècle | Affichage [only date] (de)#</lido:displayDate>
+<lido:displayDate xml:lang="en" lido:label="date">#Objets | Dates/Siècle | Affichage [only date] (en)#</lido:displayDate>
 ```
 
 
