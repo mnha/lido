@@ -96,6 +96,7 @@
         * [eventType \[Excavation\]](descriptivemetadata/eventwrap/eventset-excavation/event-excavation/eventtype-excavation/README.md)
           * [conceptID \[Excavation\]](descriptivemetadata/eventwrap/eventset-excavation/event-excavation/eventtype-excavation/conceptid.md)
           * [term \[Excavation\]](descriptivemetadata/eventwrap/eventset-excavation/event-excavation/eventtype-excavation/term-excavation.md)
+        * [eventPlace \[Excavation\]](descriptivemetadata/eventwrap/eventset-excavation/event-excavation/eventplace-excavation.md)
   * [4.4 \| objectRelationWrap](descriptivemetadata/objectrelationwrap/README.md)
     * [subjectWrap](descriptivemetadata/objectrelationwrap/subjectwrap/README.md)
       * [subjectSet](descriptivemetadata/objectrelationwrap/subjectwrap/subjectset/README.md)
