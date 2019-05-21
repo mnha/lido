@@ -4,24 +4,24 @@ description: Actor in Role
 
 # actorInRole \[Beginning of existence\]
 
-Definition
+### Definition
 
-LIDO
+#### LIDO
 
 Describes an actor with role and \(if necessary\) attributions in a structured way, consisting of the sub-elements actor, its role, attribution and extent.
 
-MNHA
+#### MNHA
 
 This element contains the following elements:
 
-* actor \[Beginning of existence\]
-* roleActor \[Beginning of existence\]
+* `actor` \[Beginning of existence\]
+* `roleActor` \[Beginning of existence\]
 
-Attributes
+### Attributes
 
-This element does not have attributes.
+_This element does not have attributes._
 
-Example
+### Example
 
 ```markup
 <lido:actorInRole>
