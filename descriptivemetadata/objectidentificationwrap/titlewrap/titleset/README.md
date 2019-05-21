@@ -34,9 +34,14 @@ This attribute contains the following default value:
 
 ```markup
 <lido:titleSet>
-    <lido:appellationValue>#Title (fr)#</lido:appellationValue>
-    <lido:appellationValue xml:lang="de">#Title (de)#</lido:appellationValue>
-    <lido:appellationValue xml:lang="en">#Title (en)#</lido:appellationValue>
+    <lido:appellationValue>#Title 1 (fr)#</lido:appellationValue>
+    <lido:appellationValue xml:lang="de">#Title 1 (de)#</lido:appellationValue>
+    <lido:appellationValue xml:lang="en">#Title 1 (en)#</lido:appellationValue>
+</lido:titleSet>
+<lido:titleSet>
+    <lido:appellationValue>#Title 2 (fr)#</lido:appellationValue>
+    <lido:appellationValue xml:lang="de">#Title 2 (de)#</lido:appellationValue>
+    <lido:appellationValue xml:lang="en">#Title 2 (en)#</lido:appellationValue>
 </lido:titleSet>
 <lido:titleSet lido:type="other">
     <lido:appellationValue>#Title (other) 1 (fr)#</lido:appellationValue>
