@@ -30,9 +30,14 @@ _This element does not have attributes._
 <lido:objectIdentificationWrap>
     <lido:titleWrap>
         <lido:titleSet>
-            <lido:appellationValue>#Title (fr)#</lido:appellationValue>
-            <lido:appellationValue xml:lang="de">#Title (de)#</lido:appellationValue>
-            <lido:appellationValue xml:lang="en">#Title (en)#</lido:appellationValue>
+            <lido:appellationValue>#Title 1 (fr)#</lido:appellationValue>
+            <lido:appellationValue xml:lang="de">#Title 1 (de)#</lido:appellationValue>
+            <lido:appellationValue xml:lang="en">#Title 1 (en)#</lido:appellationValue>
+        </lido:titleSet>
+        <lido:titleSet>
+            <lido:appellationValue>#Title 2 (fr)#</lido:appellationValue>
+            <lido:appellationValue xml:lang="de">#Title 2 (de)#</lido:appellationValue>
+            <lido:appellationValue xml:lang="en">#Title 2 (en)#</lido:appellationValue>
         </lido:titleSet>
         <lido:titleSet lido:type="other">
             <lido:appellationValue>#Title (other) 1 (fr)#</lido:appellationValue>
@@ -104,10 +109,15 @@ _This element does not have attributes._
         </lido:repositorySet>
     </lido:repositoryWrap>
     <lido:objectDescriptionWrap>
-        <lido:objectDescriptionSet>
-            <lido:descriptiveNoteValue>#Objets | Description (fr)#</lido:descriptiveNoteValue>
-            <lido:descriptiveNoteValue xml:lang="de">#Objets | Description (de)#</lido:descriptiveNoteValue>
-            <lido:descriptiveNoteValue xml:lang="en">#Objets | Description (en)#</lido:descriptiveNoteValue>
+        <lido:objectDescriptionSet lido:type="short">
+            <lido:descriptiveNoteValue>#Objets | Textes [type=descr. courte] (fr)#</lido:descriptiveNoteValue>
+            <lido:descriptiveNoteValue xml:lang="de">#Objets | Textes [type=descr. courte] (de)#</lido:descriptiveNoteValue>
+            <lido:descriptiveNoteValue xml:lang="en">#Objets | Textes [type=descr. courte](en)#</lido:descriptiveNoteValue>
+        </lido:objectDescriptionSet>
+        <lido:objectDescriptionSet lido:type="long">
+            <lido:descriptiveNoteValue>#Objets | Textes [type=descr. longue] (fr)#</lido:descriptiveNoteValue>
+            <lido:descriptiveNoteValue xml:lang="de">#Objets | Textes [type=descr. longue] (de)#</lido:descriptiveNoteValue>
+            <lido:descriptiveNoteValue xml:lang="en">#Objets | Textes [type=descr. longue](en)#</lido:descriptiveNoteValue>
         </lido:objectDescriptionSet>
     </lido:objectDescriptionWrap>
     <lido:objectMeasurementsWrap>
