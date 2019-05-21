@@ -53,6 +53,7 @@
           * [actor \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventactor-beginning-of-existence/actorinrole-beginning-of-existence/actor-beginning-of-existence/README.md)
             * [nameActorSet \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventactor-beginning-of-existence/actorinrole-beginning-of-existence/actor-beginning-of-existence/nameactorset-beginning-of-existence/README.md)
               * [appellationValue \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventactor-beginning-of-existence/actorinrole-beginning-of-existence/actor-beginning-of-existence/nameactorset-beginning-of-existence/appellationvalue-beginning-of-existence.md)
+            * [vitalDatesActor \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventactor-beginning-of-existence/actorinrole-beginning-of-existence/actor-beginning-of-existence/vitaldatesactor-beginning-of-existence.md)
       * [eventDate \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventdate-beginning-of-existence/README.md)
         * [displayDate \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventdate-beginning-of-existence/displaydate-beginning-of-existence.md)
         * [date \[Beginning of existence\]](descriptivemetadata/eventwrap/eventset-beginning-of-existence/eventdate-beginning-of-existence/date-beginning-of-existence/README.md)
