@@ -61,13 +61,6 @@ _This element does not have attributes._
     </lido:relatedWorkSet>
     <lido:relatedWorkSet>
         <lido:relatedWork>
-                        
-            <!-- later
-            <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-            <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-            <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-            -->
-                        
             <lido:object>
                 <lido:objectWebResource lido:formatResource="text/html">
                     #Aleph LINK#
@@ -75,6 +68,31 @@ _This element does not have attributes._
                 <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="a-z.lu">
                     #Aleph ID#
                 </lido:objectID>
+                <lido:objectNote lido:type="book">#Bibliothèque | Réf. biblio. 1#</lido:objectNote>
+                <lido:objectNote lido:type="page">#Bibliothèque | Page 1#</lido:objectNote>
+                <lido:objectNote lido:type="illustration">#Bibliothèque | Ill. 1#</lido:objectNote>
+                <lido:objectNote lido:type="catalogue">#Bibliothèque | N° catalogue 1#</lido:objectNote>
+            </lido:object>
+        </lido:relatedWork>
+        <lido:relatedWorkRelType>
+            <lido:term>Littérature en contexte</lido:term>
+            <lido:term xml:lang="de">Literatur im Kontext</lido:term>
+            <lido:term xml:lang="en">Literature in context</lido:term>
+        </lido:relatedWorkRelType>
+    </lido:relatedWorkSet>
+    <lido:relatedWorkSet>
+        <lido:relatedWork>
+            <lido:object>
+                <lido:objectWebResource lido:formatResource="text/html">
+                    #Aleph LINK#
+                </lido:objectWebResource>
+                <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="a-z.lu">
+                    #Aleph ID#
+                </lido:objectID>
+                <lido:objectNote lido:type="book">#Bibliothèque | Réf. biblio. 2#</lido:objectNote>
+                <lido:objectNote lido:type="page">#Bibliothèque | Page 2#</lido:objectNote>
+                <lido:objectNote lido:type="illustration">#Bibliothèque | Ill. 2#</lido:objectNote>
+                <lido:objectNote lido:type="catalogue">#Bibliothèque | N° catalogue 2#</lido:objectNote>
             </lido:object>
         </lido:relatedWork>
         <lido:relatedWorkRelType>
