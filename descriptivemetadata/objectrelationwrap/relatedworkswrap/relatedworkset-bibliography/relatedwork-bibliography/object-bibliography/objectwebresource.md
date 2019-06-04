@@ -2,7 +2,7 @@
 description: 'Object: Webresource'
 ---
 
-# objectWebResource
+# objectWebResource \[Bibliography\]
 
 ### Description
 

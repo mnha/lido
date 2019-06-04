@@ -20,10 +20,6 @@ This element contains a provenance description for display as requested by the o
 
 Objets \| Mention droits.
 
-{% hint style="info" %}
-The field "Objets \|  Mention droits." is currently not a multilingual field.
-{% endhint %}
-
 ### Attributes
 
 #### @xml:lang

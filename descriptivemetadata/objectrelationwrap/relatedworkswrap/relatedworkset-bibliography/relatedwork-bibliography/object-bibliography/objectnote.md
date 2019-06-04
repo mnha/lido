@@ -2,7 +2,7 @@
 description: Object Note
 ---
 
-# objectNote
+# objectNote \[Bibliography\]
 
 ### Description
 
