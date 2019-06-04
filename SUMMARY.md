@@ -120,7 +120,6 @@
           * [term \[Link to other work\(s\)\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-link-to-other-work-s/relatedworkreltype-link-to-other-work-s/term-link-to-other-work-s.md)
       * [relatedWorkSet \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/README.md)
         * [relatedWork \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/README.md)
-          * [displayObject \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/displayobject-bibliography.md)
           * [object \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/README.md)
             * [objectWebResource](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/objectwebresource.md)
             * [objectID \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/objectid-bibliography.md)
