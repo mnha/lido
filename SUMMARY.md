@@ -123,6 +123,7 @@
           * [object \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/README.md)
             * [objectWebResource](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/objectwebresource.md)
             * [objectID \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/objectid-bibliography.md)
+            * [objectNote](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedwork-bibliography/object-bibliography/objectnote.md)
         * [relatedWorkRelType \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedworkreltype-bibliography/README.md)
           * [term \[Bibliography\]](descriptivemetadata/objectrelationwrap/relatedworkswrap/relatedworkset-bibliography/relatedworkreltype-bibliography/term-bibliography.md)
 * [5 \| administrativeMetadata](administrativemetadata/README.md)
