@@ -22,7 +22,11 @@ This element contains the following default values:
 
 ### Attributes
 
-_No attribute is currently defined for this element._
+**@xml:lang**
+
+This attribute contains the following default values:
+
+`de` \| `en`
 
 #### Example
 

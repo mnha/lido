@@ -14,7 +14,7 @@ Preferably taken from and linking to a published controlled vocabulary.
 
 #### MNHA
 
-This element contains one of the following values:
+This element contains the following value:
 
 * `http://terminology.lido-schema.org/recordType/item-level_record`
 
