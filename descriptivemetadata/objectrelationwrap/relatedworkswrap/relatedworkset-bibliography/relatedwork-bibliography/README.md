@@ -4,10 +4,6 @@ description: Related Work
 
 # relatedWork \[Bibliography\]
 
-{% hint style="info" %}
-Still elements to be discussed
-{% endhint %}
-
 ### Description
 
 #### LIDO
@@ -18,8 +14,7 @@ Wrapper for the display and reference elements of a related object/work.
 
 This element contains the following elements
 
-* displayObject
-* object
+* `object`
 
 ### Attributes
 
@@ -28,14 +23,7 @@ _This element does not have attributes._
 ### Example
 
 ```markup
-<lido:relatedWork>
-                        
-    <!-- later
-    <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-    <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-    <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-    -->
-                        
+<lido:relatedWork>               
     <lido:object>
         <lido:objectWebResource lido:formatResource="text/html">
             #Aleph LINK#
@@ -43,6 +31,10 @@ _This element does not have attributes._
         <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="a-z.lu">
             #Aleph ID#
         </lido:objectID>
+        <lido:objectNote lido:type="book">#Bibliothèque | Réf. biblio. 1#</lido:objectNote>
+        <lido:objectNote lido:type="page">#Bibliothèque | Page 1#</lido:objectNote>
+        <lido:objectNote lido:type="illustration">#Bibliothèque | Ill. 1#</lido:objectNote>
+        <lido:objectNote lido:type="catalogue">#Bibliothèque | N° catalogue 1#</lido:objectNote>
     </lido:object>
 </lido:relatedWork>
 ```

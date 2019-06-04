@@ -4,10 +4,6 @@ description: Related Work Set
 
 # relatedWorkSet \[Bibliography\]
 
-{% hint style="info" %}
-Still elements to be discussed!
-{% endhint %}
-
 ### Description
 
 #### LIDO
@@ -29,21 +25,18 @@ _No attribute is currently defined for this element_
 
 ```markup
 <lido:relatedWorkSet>
-    <lido:relatedWork>
-                        
-        <!-- later
-        <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-        <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-        <lido:displayObject>#Bibliography: display text#</lido:displayObject>
-        -->
-                        
+    <lido:relatedWork>     
         <lido:object>
             <lido:objectWebResource lido:formatResource="text/html">
-                #Aleph LINK#
+                #Aleph LINK 1#
             </lido:objectWebResource>
             <lido:objectID lido:type="http://terminology.lido-schema.org/identifier_type/local_identifier" lido:source="a-z.lu">
-                #Aleph ID#
+                #Aleph ID 1#
             </lido:objectID>
+            <lido:objectNote lido:type="book">#Bibliothèque | Réf. biblio. 1#</lido:objectNote>
+            <lido:objectNote lido:type="page">#Bibliothèque | Page 1#</lido:objectNote>
+            <lido:objectNote lido:type="illustration">#Bibliothèque | Ill. 1#</lido:objectNote>
+            <lido:objectNote lido:type="catalogue">#Bibliothèque | N° catalogue 1#</lido:objectNote>
         </lido:object>
     </lido:relatedWork>
     <lido:relatedWorkRelType>
